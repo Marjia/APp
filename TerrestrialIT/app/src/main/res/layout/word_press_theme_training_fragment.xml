@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/tools"
+    app:ignore="NamespaceTypo">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <include
+            layout="@layout/text_header"/>
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            card_view:cardCornerRadius="10dp"
+            app:cardBackgroundColor="@color/cardViewBackgroundColor"
+            app:cardElevation="4dp"
+            app:cardMaxElevation="6dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="2dp"
+                android:padding="2dp"
+                android:orientation="vertical"
+                android:background="@drawable/cardviewbg">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:padding="2dp"
+                    android:gravity="left"
+                    android:text="Clear Concept of Content Management System (CMS)"
+                    android:textStyle="bold"
+                    android:textSize="17dp"
+                    android:textColor="@color/colorTextHeader"/>
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/colorView"
+                    android:layout_margin="5dp"
+                    android:padding="2dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_margin="5dp"
+                    android:padding="2dp"
+                    android:text="CMS will allow your organization to have complete control over its website without the need to pay excessive and recurring development fees for almost daily, routine website updates."
+                    android:textSize="15dp"
+                    android:gravity="left"
+                    android:textColor="@color/colorText"
+                    />
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            card_view:cardCornerRadius="10dp"
+            app:cardBackgroundColor="@color/cardViewBackgroundColor"
+            app:cardElevation="4dp"
+            app:cardMaxElevation="6dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="@drawable/cardviewbg">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="2dp"
+                    android:padding="2dp"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:padding="2dp"
+                        android:gravity="left"
+                        android:text="Static web templates to Dynamic with Admin Panel"
+                        android:textStyle="bold"
+                        android:textSize="17dp"
+                        android:textColor="@color/colorTextHeader"/>
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="@color/colorView"
+                        android:layout_margin="5dp"
+                        android:padding="2dp"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_margin="5dp"
+                        android:padding="2dp"
+                        android:text="You know HTML, CSS, and JavaScript. You can make beautiful websites. Maybe you’ve heard about WordPress, but aren’t entirely sure how to implement it, or why you might need it. Maybe a client asked for WordPress, but you’re not really familiar with it. Maybe you’ve worked with it before, but don’t know how to make your own theme from static to WordPress. Whatever the case, this training is for you."
+                        android:textSize="15dp"
+                        android:gravity="left"
+                        android:textColor="@color/colorText"/>
+                </LinearLayout>
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            card_view:cardCornerRadius="10dp"
+            app:cardBackgroundColor="@color/cardViewBackgroundColor"
+            app:cardElevation="4dp"
+            app:cardMaxElevation="6dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="@color/colorTableColumn">
+
+                <TextView
+                    android:id="@+id/apply_for_training_txt_btn_id"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:textStyle="italic"
+                    android:textAlignment="center"
+                    android:layout_gravity="center_horizontal"
+                    android:textSize="17dp"
+                    android:gravity="center"
+                    android:background="@color/colorTableColumn"
+                    android:textColor="@color/colorTextHeader"
+                    android:text="Apply for Training"/>
+
+
+                <include
+                    layout="@layout/footerlayout"/>
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+        <!--<android.support.v7.widget.CardView-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_margin="10dp"-->
+            <!--card_view:cardCornerRadius="10dp"-->
+            <!--app:cardBackgroundColor="@color/cardViewBackgroundColor"-->
+            <!--app:cardElevation="4dp"-->
+            <!--app:cardMaxElevation="6dp">-->
+            <!--<LinearLayout-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:orientation="vertical">-->
+
+                <!--<TextView-->
+                    <!---->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:padding="5dp"-->
+                    <!--android:textStyle="italic"-->
+                    <!--android:textAlignment="center"-->
+                    <!--android:layout_gravity="center_horizontal"-->
+                    <!--android:textSize="16dp"-->
+                    <!--android:gravity="center"-->
+                    <!--android:background="@color/colorTableColumn"-->
+                    <!--android:textColor="@color/colorTextHeader"-->
+                    <!--/>-->
+
+
+                <!--<include-->
+                    <!--layout="@layout/footerlayout"/>-->
+            <!--</LinearLayout>-->
+        <!--</android.support.v7.widget.CardView>-->
+
+
+    </LinearLayout>
+
+</ScrollView>

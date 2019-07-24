@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    tools:context=".TerrestrialIt"
+    >
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="169dp"
+            app:srcCompat="@drawable/bannernewupdate"
+            android:scaleType="fitXY"
+            />
+
+        <ListView
+            android:id="@+id/list_id"
+            android:layout_width="match_parent"
+            android:layout_height="512dp"
+            android:choiceMode="singleChoice"
+            android:focusable="false"
+            android:listSelector="@drawable/listviewbg"
+            android:orientation="vertical"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="149dp"
+            android:layout_below="@id/imageView"/>
+
+        <RelativeLayout
+            android:id="@+id/down_button_layout_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/list_id"
+            android:layout_margin="1dp"
+            >
+            <LinearLayout
+                android:id="@+id/up_layout_id"
+                android:layout_width="match_parent"
+                android:layout_height="172dp"
+                android:orientation="horizontal">
+                <android.support.constraint.ConstraintLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="1dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/responsback">
+                    <!--android:background="@drawable/responsivebackimage"-->
+
+
+                    <LinearLayout
+                        android:id="@+id/responsive_design_layout_id"
+                        android:layout_width="110dp"
+                        android:layout_height="110dp"
+                        android:layout_centerInParent="true"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_margin="60dp"
+                        android:gravity="center_vertical"
+                        android:orientation="vertical"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        android:background="@drawable/buttonround"
+                        android:clickable="true">
+
+                        <!--<ImageView-->
+                        <!---->
+                        <!--android:layout_width="match_parent"-->
+                        <!--android:layout_height="wrap_content"-->
+                        <!--android:layout_margin="5dp"-->
+                        <!--android:src="@drawable/devices"-->
+                        <!--android:layout_gravity="center_horizontal"-->
+                        <!--android:foregroundGravity="center"-->
+                        <!--android:layout_centerInParent="true"-->
+
+                        <!--/>-->
+
+                        <ImageView
+                            android:id="@+id/responsivedesignimage_btn_id"
+                            android:layout_width="84dp"
+                            android:layout_height="84dp"
+                            android:layout_gravity="center_horizontal"
+                            android:foregroundGravity="center"
+                            android:layout_centerInParent="true"
+                            android:background="@drawable/buttonbackres"/>
+
+                        <!--<ImageView-->
+                            <!--xmlns:app="http://schemas.android.com/apk/res-auto"-->
+                            <!--android:id="@+id/responsivedesignimage_btn_id"-->
+                            <!--android:layout_width="106dp"-->
+                            <!--android:layout_height="106dp"-->
+                            <!--android:layout_gravity="center_horizontal"-->
+                            <!--android:foregroundGravity="center"-->
+                            <!--android:layout_centerInParent="true"-->
+                            <!--android:background="@drawable/buttonbackres"/>-->
+                            <!--&lt;!&ndash;app:civ_border_width="2dp"&ndash;&gt;-->
+                            <!--/>-->
+
+                    </LinearLayout>
+                </android.support.constraint.ConstraintLayout>
+                <android.support.constraint.ConstraintLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="1dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/boostback">
+                    <!--android:background="@drawable/boostsaledownbackimage"-->
+                    <!--&gt;-->
+                    <LinearLayout
+                        android:id="@+id/boost_sale_layout_id"
+                        android:layout_width="120dp"
+                        android:layout_height="120dp"
+                        android:layout_centerInParent="true"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_margin="60dp"
+                        android:gravity="center_vertical"
+                        android:orientation="vertical"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        android:background="@drawable/buttonround"
+                        android:clickable="true">
+
+                        <ImageView
+                            android:id="@+id/boost_sale_image_btn_id"
+                        android:layout_width="74dp"
+                        android:layout_height="74dp"
+                        android:layout_gravity="center_horizontal"
+                        android:foregroundGravity="center"
+                        android:layout_centerInParent="true"
+                        android:background="@drawable/buttonbackboost" />
+
+                        <!--<ImageView-->
+                            <!--xmlns:app="http://schemas.android.com/apk/res-auto"-->
+                            <!--android:id="@+id/boost_sale_image_btn_id"-->
+                            <!--android:layout_width="86dp"-->
+                            <!--android:layout_height="86dp"-->
+                            <!--android:layout_gravity="center_horizontal"-->
+                            <!--android:foregroundGravity="center"-->
+                            <!--android:layout_centerInParent="true"-->
+                            <!--android:background="@drawable/buttonbackboost"/>-->
+                            <!--app:civ_border_width="2dp"-->
+                            <!--/>-->
+
+
+                    </LinearLayout>
+                </android.support.constraint.ConstraintLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/down_layout_id"
+                android:layout_width="match_parent"
+                android:layout_height="172dp"
+                android:orientation="horizontal"
+                android:layout_below="@+id/up_layout_id">
+                <android.support.constraint.ConstraintLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_margin="1dp"
+                    android:background="@drawable/ecommerceback">
+                    <!--android:background="@drawable/ecommercesolutionbackimage"-->
+                    <!--&gt;-->
+                    <LinearLayout
+                        android:id="@+id/ecommerce_solution_layout_id"
+                        android:layout_width="130dp"
+                        android:layout_height="130dp"
+                        android:layout_centerInParent="true"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_margin="60dp"
+                        android:gravity="center_vertical"
+                        android:orientation="vertical"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        android:background="@drawable/buttonround"
+                        android:clickable="true">
+
+
+                        <ImageView
+                            android:id="@+id/ecommerce_down_n_img_btn"
+                            android:layout_width="84dp"
+                            android:layout_height="84dp"
+                            android:layout_gravity="center_horizontal"
+                            android:foregroundGravity="center"
+                            android:layout_centerInParent="true"
+                            android:background="@drawable/buttonecommerceback"/>
+
+                        <!--<ImageView-->
+                            <!--android:id="@+id/ecommerce_down_img_btn"-->
+                            <!--android:layout_width="106dp"-->
+                            <!--android:layout_height="106dp"-->
+                            <!--android:layout_gravity="center_horizontal"-->
+                            <!--android:foregroundGravity="center"-->
+                            <!--android:layout_centerInParent="true"-->
+                            <!--android:background="@drawable/buttonecommerceback"/>-->
+                        <!--/>-->
+
+
+                    </LinearLayout>
+
+                </android.support.constraint.ConstraintLayout>
+                <android.support.constraint.ConstraintLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_margin="1dp"
+                    android:background="@drawable/supportback">
+                    <!--android:background="@drawable/supportbackimage"-->
+                    <!--&gt;-->
+                    <LinearLayout
+                        android:id="@+id/support_layout_id"
+                        android:layout_width="130dp"
+                        android:layout_height="130dp"
+                        android:layout_centerInParent="true"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_margin="60dp"
+                        android:gravity="center_vertical"
+                        android:orientation="vertical"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        android:background="@drawable/buttonround"
+                        android:clickable="true">
+
+                        <ImageView
+                            xmlns:app="http://schemas.android.com/apk/res-auto"
+                            android:id="@+id/support_down_img_btn"
+                            android:layout_width="84dp"
+                            android:layout_height="84dp"
+                            android:layout_gravity="center_horizontal"
+                            android:foregroundGravity="center"
+                            android:layout_centerInParent="true"
+                            android:background="@drawable/buttonesupportback"/>
+                        <!--<ImageView-->
+                            <!--xmlns:app="http://schemas.android.com/apk/res-auto"-->
+                            <!--android:id="@+id/support_down_img_btn"-->
+                            <!--android:layout_width="106dp"-->
+                            <!--android:layout_height="106dp"-->
+                            <!--android:layout_gravity="center_horizontal"-->
+                            <!--android:foregroundGravity="center"-->
+                            <!--android:layout_centerInParent="true"-->
+                            <!--android:background="@drawable/buttonesupportback"/>-->
+                            <!--app:civ_border_width="2dp"-->
+                            <!--/>-->
+
+
+                    </LinearLayout>
+                </android.support.constraint.ConstraintLayout>
+            </LinearLayout>
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_below="@+id/down_button_layout_id"
+            android:id="@+id/footer_social_media"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:padding="7dp"
+            android:orientation="horizontal"
+            android:gravity="center_horizontal"
+            android:foregroundGravity="center"
+            android:background="@color/colorPrimary"
+            >
+
+            <!--<android.support.v7.widget.CardView-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="match_parent"-->
+            <!--app:cardElevation="4dp"-->
+            <!--app:cardMaxElevation="6dp"-->
+            <!--android:layout_margin="1dp"-->
+            <!--android:padding="2dp">-->
+            <!--<LinearLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:orientation="horizontal"-->
+            <!--android:gravity="center_horizontal"-->
+            <!--android:foregroundGravity="center"-->
+            <!--android:background="@drawable/cardviewbg">-->
+
+            <!--</LinearLayout>-->
+
+            <!--</android.support.v7.widget.CardView>-->
+
+
+            <ImageView
+                android:id="@+id/facebook_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/facebookicon"
+                android:layout_margin="4dp"/>
+            <ImageView
+                android:id="@+id/twitter_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/twittericon"
+                android:layout_toEndOf="@id/facebook_id"
+                android:layout_margin="4dp"
+                android:layout_toRightOf="@id/facebook_id" />
+            <ImageView
+                android:id="@+id/googleplus"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/googleicon"
+                android:layout_toEndOf="@+id/twitter_id"
+                android:layout_margin="4dp"
+                android:layout_toRightOf="@+id/twitter_id" />
+            <ImageView
+                android:id="@+id/linkedin_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/linkedinicon"
+                android:layout_toEndOf="@+id/googleplus"
+                android:layout_margin="4dp"
+                android:layout_toRightOf="@+id/googleplus" />
+            <ImageView
+                android:id="@+id/skype_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/skypeicon"
+                android:layout_toEndOf="@id/linkedin_id"
+                android:layout_margin="4dp"
+                android:layout_toRightOf="@id/linkedin_id" />
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+</ScrollView>

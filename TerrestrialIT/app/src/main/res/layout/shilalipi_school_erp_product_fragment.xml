@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/tools"
+    app:ignore="NamespaceTypo">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <include
+            layout="@layout/text_header"/>
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            card_view:cardCornerRadius="10dp"
+            app:cardBackgroundColor="@color/cardViewBackgroundColor"
+            app:cardElevation="4dp"
+            app:cardMaxElevation="6dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="2dp"
+                android:padding="2dp"
+                android:orientation="vertical"
+                android:background="@drawable/cardviewbg">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Shilalipi school and college Management Application"
+                    android:layout_margin="2dp"
+                    android:padding="2dp"
+                    android:textColor="@color/colorTextHeader"
+                    android:textSize="17dp"/>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:background="@color/colorView"/>
+
+                <!--<ImageView-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_margin="5dp"-->
+                <!--android:padding="5dp"-->
+                <!--android:src="@drawable/shilalipilogo"-->
+                <!--android:scaleType="centerCrop"/>-->
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:padding="2dp"
+                    android:gravity="left"
+                    android:text="Shilalipi is a School and College Management Application to manage institute. It's created by fully advanced account system. Easy attendance for student and teacher. Result publication with grade and reporting system. Parents can observe their multiple child’s activities. It’s included with digital attendance system. Promote students easily."
+                    android:textStyle="normal"
+                    android:textSize="15dp"
+                    android:textColor="@color/colorText"/>
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            card_view:cardCornerRadius="10dp"
+            app:cardBackgroundColor="@color/cardViewBackgroundColor"
+            app:cardElevation="4dp"
+            app:cardMaxElevation="6dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="2dp"
+                android:padding="2dp"
+                android:orientation="vertical"
+                android:background="@drawable/cardviewbg">
+
+                <!--<ImageView-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="225dp"-->
+                <!--android:layout_margin="5dp"-->
+                <!--android:padding="5dp"-->
+                <!--android:src="@drawable/shilalipiteacherspanelpic"/>-->
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:padding="2dp"
+                    android:gravity="left"
+                    android:text="Teacher’s Panel"
+                    android:textStyle="bold"
+                    android:textSize="20dp"
+                    android:textColor="@color/colorTextHeader"/>
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:background="@color/colorView"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:padding="2dp"
+                    android:gravity="left"
+                    android:text="Managing Students
+\nManaging Exam Marks
+\nProvide Study Materials
+\nManaging Attendance
+\nContact Students and Parents"
+                    android:textStyle="normal"
+                    android:textSize="15dp"
+                    android:textColor="@color/colorText"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_margin="5dp"
+                    android:padding="2dp"
+                    android:text="It’s available on 14 different languages, 40+ Modules. Advanced class routine system. Profile details in every user profile. Alerts via E-Mail, SMS, Charts and graphs at dashboard lass can be defined by sections. Exam and Schedule management. Hostel management, Library Management system. Marks management. Internal message with attachment, media sharing system. Payment method options those are cash, check and bKash, rocket etc"
+                    android:textSize="15dp"
+                    android:textColor="@color/colorText"
+                    />
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            card_view:cardCornerRadius="10dp"
+            app:cardBackgroundColor="@color/cardViewBackgroundColor"
+            app:cardElevation="4dp"
+            app:cardMaxElevation="6dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="2dp"
+                android:padding="2dp"
+                android:orientation="vertical"
+                android:background="@drawable/cardviewbg">
+
+                <!--<ImageView-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="225dp"-->
+                <!--android:layout_margin="5dp"-->
+                <!--android:padding="5dp"-->
+                <!--android:src="@drawable/studentpanelshilalipipic"/>-->
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:padding="2dp"
+                    android:gravity="left"
+                    android:text="Student Panel"
+                    android:textStyle="bold"
+                    android:textSize="20dp"
+                    android:textColor="@color/colorTextHeader"/>
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:background="@color/colorView"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:padding="2dp"
+                    android:gravity="left"
+                    android:text="Get Class Routine
+\nGet Exam Marks
+\nGet Attendance Status
+\nGet Study Materials/ Files from teachers
+\nGet Payment invoices, Pay Online
+\nCommunicate with teacher"
+                    android:textStyle="normal"
+                    android:textSize="15dp"
+                    android:textColor="@color/colorText"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_margin="5dp"
+                    android:padding="2dp"
+                    android:text="Responsive design with smart admin panel. Three types of attendance system (student, teacher and exam attendance). Manual attendance system also can be used without card or fingerprint. Student smart ID card on the screen RFID system (in/out time) auto SMS forwarding parents on guardian. It’s can improve attendance ration. No duplication, copy free system."
+                    android:textSize="15dp"
+                    android:textColor="@color/colorText"
+                    />
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            card_view:cardCornerRadius="10dp"
+            app:cardBackgroundColor="@color/cardViewBackgroundColor"
+            app:cardElevation="4dp"
+            app:cardMaxElevation="6dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="@drawable/cardviewbg">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="2dp"
+                    android:padding="2dp"
+                    android:orientation="vertical"
+                    android:background="@drawable/cardviewbg">
+
+                    <!--<ImageView-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="225dp"-->
+                    <!--android:layout_margin="5dp"-->
+                    <!--android:padding="5dp"-->
+                    <!--android:src="@drawable/studentpanelshilalipipic"/>-->
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:padding="2dp"
+                        android:gravity="left"
+                        android:text="Parent Panel"
+                        android:textStyle="bold"
+                        android:textSize="20dp"
+                        android:textColor="@color/colorTextHeader"/>
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="2dp"
+                        android:background="@color/colorView"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:padding="2dp"
+                        android:gravity="left"
+                        android:text="Get Children Marks
+\nGet Children Payment Invoices
+\nGet Children Class Routine
+\nMesseging with Teachers"
+                        android:textStyle="normal"
+                        android:textSize="15dp"
+                        android:textColor="@color/colorText"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_margin="5dp"
+                        android:padding="2dp"
+                        android:text="There are six types of user. Admin, Teacher, Accountant, Librarian, Parent, Student. It keeps, manages and track all information. Complete user management with role and permission assigned. There is a advanced grading system integrated in our system.
+This system can perform more batter to make easy management of the institute.
+
+"
+                        android:textSize="15dp"
+                        android:textColor="@color/colorText"
+                        />
+                </LinearLayout>
+
+                <!--<TextView-->
+                    <!--android:id="@+id/submit_quate_txt_id"-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:text="Request for Demo "-->
+                    <!--android:textSize="17dp"-->
+                    <!--android:layout_margin="3dp"-->
+                    <!--android:padding="1dp"-->
+                    <!--android:textStyle="italic"-->
+                    <!--android:textColor="@color/colorPrimaryDark"-->
+                    <!--/>-->
+                <!--<include-->
+                    <!--layout="@layout/footerlayout"/>-->
+
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            card_view:cardCornerRadius="10dp"
+            app:cardBackgroundColor="@color/cardViewBackgroundColor"
+            app:cardElevation="4dp"
+            app:cardMaxElevation="6dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="@color/colorTableColumn">
+
+                <TextView
+                    android:id="@+id/submit_quate_txt_id"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:textStyle="italic"
+                    android:textAlignment="center"
+                    android:layout_gravity="center_horizontal"
+                    android:textSize="17dp"
+                    android:gravity="center"
+                    android:background="@color/colorTableColumn"
+                    android:textColor="@color/colorTextHeader"
+                    android:text="Request for Demo"/>
+
+
+                <include
+                    layout="@layout/footerlayout"/>
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+    </LinearLayout>
+
+</ScrollView>

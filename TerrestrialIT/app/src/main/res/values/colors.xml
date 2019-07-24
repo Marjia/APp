@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#388fd6</color>
+    <color name="colorPrimaryDark">#2a4e7c</color>
+    <color name="colorPrimaryView">#5fa4dc</color>
+    <color name="colorAccent">#8b3ef7</color>
+    <color name="colorViewPagerSelected">#8b3ef7</color>
+    <color name="cardViewBackgroundColor">#94f8f9fa</color>
+    <color name="cardViewLinearBackgroundColor">#f8f9fa</color>
+    <color name="colorTextHeader">#3d304e</color>
+    <color name="colorView">#d5d7d7</color>
+    <color name="colorupperView">#f4f4fa</color>
+    <color name="colorText">#5a585c</color>
+    <color name="colorTextSubHeader">#4b4256</color>
+    <color name="colorTextSelected">#f7f5fa</color>
+    <color name="colorTextHeaderBackground">#7d388fd6</color>
+    <color name="colorTableHeader">#c0c0f1</color>
+    <color name="colorTableColumn">#d8d8f5</color>\
+    <color name="colorListViewStatePressed">#a031ba3e</color>
+    <color name="colorListViewStateFocused">#a031ba3e</color>
+    <color name="colorImageTextBackground">#a4388fd6</color>
+    <color name="colorListViewMenuText">#35a5bb</color>
+    <color name="colorListViewMenuBackground">#f4f9f9fa</color>
+    <color name="colorItmBg">#00c853</color>
+
+</resources>

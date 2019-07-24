@@ -1,0 +1,543 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/tools"
+    app:ignore="NamespaceTypo">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <include
+            layout="@layout/text_header"/>
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            card_view:cardCornerRadius="10dp"
+            app:cardBackgroundColor="#eeeff4"
+            app:cardElevation="4dp"
+            app:cardMaxElevation="6dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="2dp"
+                android:padding="2dp"
+                android:orientation="vertical"
+                android:background="@drawable/cardviewbg">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:padding="2dp"
+                    android:gravity="left"
+                    android:text="Product Features"
+                    android:textStyle="bold"
+                    android:textSize="20dp"
+                    android:textColor="@color/colorTextHeader"/>
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:background="@color/colorView"
+                    android:layout_margin="5dp"
+                    android:padding="2dp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:padding="2dp"
+                    android:gravity="left"
+                    android:text="Patient Registration
+\nInsurance and TPA Billing, Credit Tracking
+\nDoctor Consultation
+\nPatient Referral
+\nPharmacy Information System
+\nRadiology Information System
+\nAccident and Emergency Care
+\nIn-patient Management
+\nOperation Theater Management
+\nCentral Sterile Supply Department Tracking
+\nIn-patient Diet and Kitchen Tracking
+\nMIS Reports
+\nOP, IP, Day Care and Surgery Billing
+\nDoctor Scheduling and Appointments
+\nSOAP Notes and EMR
+\nE-prescription
+\nLab Information System
+\nIntegration with PACS
+\nDay Care Management
+\nNursing Care and Ward Management
+\nPurchase and Inventory Management
+\nLinen and Laundry Management
+\nCreche Management
+\nSystem Administration Controls"
+                    android:textStyle="normal"
+                    android:textSize="15dp"
+                    android:textColor="@color/colorText"/>
+
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            card_view:cardCornerRadius="10dp"
+            app:cardBackgroundColor="#eeeff4"
+            app:cardElevation="4dp"
+            app:cardMaxElevation="6dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="2dp"
+                android:padding="2dp"
+                android:orientation="vertical"
+                android:background="@drawable/cardviewbg">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:padding="2dp"
+                    android:gravity="left"
+                    android:text="Registration Feature"
+                    android:textStyle="bold"
+                    android:textSize="20dp"
+                    android:textColor="@color/colorTextHeader"/>
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:background="@color/colorView"
+                    android:layout_margin="5dp"
+                    android:padding="2dp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:padding="2dp"
+                    android:gravity="left"
+                    android:text="Patient demographics are captured in this module. At the time of patient registration, the system generates a unique MRN (Medical Registration Number). Subsequently appointments can be generated / scheduled using MRN.
+
+\nPre-Registration
+\nOP Visit Registration
+\nIP Visit Registration
+\nOP-IP Conversion
+\nAdmission Profile
+\nFollow-up information for OP and IP visits
+\nMandatory “Document Reference” Uploading
+\nAppointment Notification"
+                    android:textStyle="normal"
+                    android:textSize="15dp"
+                    android:textColor="@color/colorText"/>
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            card_view:cardCornerRadius="10dp"
+            app:cardBackgroundColor="#eeeff4"
+            app:cardElevation="4dp"
+            app:cardMaxElevation="6dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="2dp"
+                android:padding="2dp"
+                android:orientation="vertical"
+                android:background="@drawable/cardviewbg">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:padding="2dp"
+                    android:gravity="left"
+                    android:text="Billing Management"
+                    android:textStyle="bold"
+                    android:textSize="20dp"
+                    android:textColor="@color/colorTextHeader"/>
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:background="@color/colorView"
+                    android:layout_margin="5dp"
+                    android:padding="2dp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:padding="2dp"
+                    android:gravity="left"
+                    android:text="One-Click Billing / Quick Payment Option
+\nPrint Invoice and Receipts
+\nInsurance and Sponsor Bills
+\nDiscounts and Rate Changes"
+                    android:textStyle="normal"
+                    android:textSize="15dp"
+                    android:textColor="@color/colorText"/>
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            card_view:cardCornerRadius="10dp"
+            app:cardBackgroundColor="#eeeff4"
+            app:cardElevation="4dp"
+            app:cardMaxElevation="6dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="2dp"
+                android:padding="2dp"
+                android:orientation="vertical"
+                android:background="@drawable/cardviewbg">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:padding="2dp"
+                    android:gravity="left"
+                    android:text="In-Patient Management"
+                    android:textStyle="bold"
+                    android:textSize="20dp"
+                    android:textColor="@color/colorTextHeader"/>
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:background="@color/colorView"
+                    android:layout_margin="5dp"
+                    android:padding="2dp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:padding="2dp"
+                    android:gravity="left"
+                    android:text="Advance Booking Feature
+\nQuick Admission Form Generation
+\nClinical Service Details
+\nComprehensive Laboratory Details
+\nVital Sign Report Summary
+\nIntake/Output Records
+\nNurse Progress Notes
+\nRoom Transfers
+\nBed Side Procedures
+\nOperation Theater
+\nCorporate Bill Management
+\nDetailed “Daily Bill” Management
+\nDischarge Summary
+\nQuick Discharge Certificate Issuance"
+                    android:textStyle="normal"
+                    android:textSize="15dp"
+                    android:textColor="@color/colorText"/>
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            card_view:cardCornerRadius="10dp"
+            app:cardBackgroundColor="#eeeff4"
+            app:cardElevation="4dp"
+            app:cardMaxElevation="6dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="2dp"
+                android:padding="2dp"
+                android:orientation="vertical"
+                android:background="@drawable/cardviewbg">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:padding="2dp"
+                    android:gravity="left"
+                    android:text="Out-Patient Management"
+                    android:textStyle="bold"
+                    android:textSize="20dp"
+                    android:textColor="@color/colorTextHeader"/>
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:background="@color/colorView"
+                    android:layout_margin="5dp"
+                    android:padding="2dp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:padding="2dp"
+                    android:gravity="left"
+                    android:text="Consultant On-Duty
+\nPatients’ History
+\nDiagnosis Details
+\nDaily/Weekly/Monthly Schedule Summary
+\nInvestigation/Treatment Summary
+\nClinical Service Details
+\nNurse Progress Notes
+\nSurgery Scheduling Details
+\nOP Medical Observation
+\nVital Sign Report Summary
+\nDischarge Notification
+\nDischarge Summary"
+                    android:textStyle="normal"
+                    android:textSize="15dp"
+                    android:textColor="@color/colorText"/>
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            card_view:cardCornerRadius="10dp"
+            app:cardBackgroundColor="#eeeff4"
+            app:cardElevation="4dp"
+            app:cardMaxElevation="6dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="2dp"
+                android:padding="2dp"
+                android:orientation="vertical"
+                android:background="@drawable/cardviewbg">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:padding="2dp"
+                    android:gravity="left"
+                    android:text="Billing Quotations"
+                    android:textStyle="bold"
+                    android:textSize="20dp"
+                    android:textColor="@color/colorTextHeader"/>
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:background="@color/colorView"
+                    android:layout_margin="5dp"
+                    android:padding="2dp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:padding="2dp"
+                    android:gravity="left"
+                    android:text="Pharmaceutical Management
+\nMedicine Management
+\nDrug Category Management
+\nDrug Name Management
+\nInventory Management"
+                    android:textStyle="normal"
+                    android:textSize="15dp"
+                    android:textColor="@color/colorText"/>
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            card_view:cardCornerRadius="10dp"
+            app:cardBackgroundColor="#eeeff4"
+            app:cardElevation="4dp"
+            app:cardMaxElevation="6dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="2dp"
+                android:padding="2dp"
+                android:orientation="vertical"
+                android:background="@drawable/cardviewbg">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:padding="2dp"
+                    android:gravity="left"
+                    android:text="Electronic Medical Record (EMR)"
+                    android:textStyle="bold"
+                    android:textSize="20dp"
+                    android:textColor="@color/colorTextHeader"/>
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:background="@color/colorView"
+                    android:layout_margin="5dp"
+                    android:padding="2dp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:padding="2dp"
+                    android:gravity="left"
+                    android:text="Mandatory “Document Reference” Uploading
+Clinical Service Details – Discharge Summaries, Admission Profile etc.
+Diagnostic Reports, Procedures and Services
+Prescriptions and Case Sheets
+"
+                    android:textStyle="normal"
+                    android:textSize="15dp"
+                    android:textColor="@color/colorText"/>
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            card_view:cardCornerRadius="10dp"
+            app:cardBackgroundColor="#eeeff4"
+            app:cardElevation="4dp"
+            app:cardMaxElevation="6dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="2dp"
+                android:padding="2dp"
+                android:orientation="vertical"
+                android:background="@drawable/cardviewbg">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:padding="2dp"
+                    android:gravity="left"
+                    android:text="Administration"
+                    android:textStyle="bold"
+                    android:textSize="20dp"
+                    android:textColor="@color/colorTextHeader"/>
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:background="@color/colorView"
+                    android:layout_margin="5dp"
+                    android:padding="2dp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:padding="2dp"
+                    android:gravity="left"
+                    android:text="Role-Based Access Control
+\nMaster Settings and Configurations
+\nUser Management – User Creation and Update.
+\nActions and Module Designations.
+\nBackup Database
+\nRoom Management
+\nSurgical Package Management
+\nAccess control Company Information
+\nBill Group Management
+\nParticular Bill Management
+\nInsurance Management
+\nMedicine Management
+\nAcknowledge Receipt Access
+\nReports Generations"
+                    android:textStyle="normal"
+                    android:textSize="15dp"
+                    android:textColor="@color/colorText"/>
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            card_view:cardCornerRadius="10dp"
+            app:cardBackgroundColor="#eeeff4"
+            app:cardElevation="4dp"
+            app:cardMaxElevation="6dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="@drawable/cardviewbg">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="2dp"
+                    android:padding="2dp"
+                    android:orientation="vertical"
+                    android:background="@drawable/cardviewbg">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:padding="2dp"
+                        android:gravity="left"
+                        android:text="System Security and Software Management"
+                        android:textStyle="bold"
+                        android:textSize="20dp"
+                        android:textColor="@color/colorTextHeader"/>
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="2dp"
+                        android:background="@color/colorView"
+                        android:layout_margin="5dp"
+                        android:padding="2dp"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:padding="2dp"
+                        android:gravity="left"
+                        android:text="User-Role Management
+\nAccess Control Rights (who has the right to access the Software)
+\nPassword Integrity (Password Encryption)
+\nComplete Data Backup
+\nUser Activity Log"
+                        android:textStyle="normal"
+                        android:textSize="15dp"
+                        android:textColor="@color/colorText"/>
+                </LinearLayout>
+
+                <!--<TextView-->
+                    <!--android:id="@+id/submit_quate_txt_id"-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:text="Request for Demo "-->
+                    <!--android:textSize="17dp"-->
+                    <!--android:layout_margin="3dp"-->
+                    <!--android:padding="1dp"-->
+                    <!--android:textStyle="italic"-->
+                    <!--android:textColor="@color/colorPrimaryDark"-->
+                    <!--/>-->
+                <!--<include-->
+                    <!--layout="@layout/footerlayout"/>-->
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            card_view:cardCornerRadius="10dp"
+            app:cardBackgroundColor="@color/cardViewBackgroundColor"
+            app:cardElevation="4dp"
+            app:cardMaxElevation="6dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="@color/colorTableColumn">
+
+                <TextView
+                    android:id="@+id/submit_quate_txt_id"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:textStyle="italic"
+                    android:textAlignment="center"
+                    android:layout_gravity="center_horizontal"
+                    android:textSize="17dp"
+                    android:gravity="center"
+                    android:background="@color/colorTableColumn"
+                    android:textColor="@color/colorTextHeader"
+                    android:text="Request for Demo"/>
+
+
+                <include
+                    layout="@layout/footerlayout"/>
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+    </LinearLayout>
+
+</ScrollView>

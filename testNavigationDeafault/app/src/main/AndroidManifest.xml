@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.terrestrialit.ltd.testnavigationdeafault">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".EducationQualificationEdit" />
+        <activity android:name=".Education_Info_show" />
+        <activity android:name=".WorkExperianceShow" />
+        <activity android:name=".WorkExperianceEdit" />
+        <activity android:name=".TrainingSummaryShowActivity" />
+        <activity android:name=".TrainingSummaryEditAct" />
+        <activity android:name=".SpecializationActivity" />
+        <activity android:name=".SpecializationEditActivity" />
+        <activity android:name=".LanguageProficiencyShow" />
+        <activity android:name=".LanguageProficiencyEditActivity" />
+        <activity android:name=".PersonalInformationShow" />
+        <activity android:name=".PersonalInformationEdit" />
+        <activity android:name=".ExtraCurricularActivity" />
+        <activity android:name=".Reference" />
+        <activity android:name=".ExtraCurriculatEdit" />
+        <activity android:name=".ReferenceEdit" />
+        <activity android:name=".LoginActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".RegisterActivity" />
+        <activity android:name=".UsersListActivity" />
+        <activity android:name=".RegShowCreateCV" />
+        <activity android:name=".CreateCVActivity"></activity>
+    </application>
+
+</manifest>

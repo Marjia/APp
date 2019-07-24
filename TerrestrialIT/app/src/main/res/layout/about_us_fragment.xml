@@ -1,0 +1,380 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/tools"
+    app:ignore="NamespaceTypo">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+
+        <include
+            layout="@layout/text_header"/>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            card_view:cardCornerRadius="10dp"
+            app:cardBackgroundColor="@color/cardViewBackgroundColor"
+            app:cardElevation="4dp"
+            app:cardMaxElevation="6dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="2dp"
+                android:padding="2dp"
+                android:orientation="vertical"
+                android:background="@drawable/cardviewbg">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:padding="2dp"
+                    android:gravity="left"
+                    android:text="COMPANY HISTORY"
+                    android:textStyle="bold"
+                    android:textSize="17dp"
+                    android:textColor="@color/colorTextHeader"/>
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_margin="2dp"
+                    android:padding="5dp"
+                    android:background="@color/colorView"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_margin="5dp"
+                    android:padding="2dp"
+                    android:text="Terrestrial IT, was registered under the Business Registration No. 100087.
+
+\nFrom our small but resolute beginning, we have made major inroads into the IT market, capturing key areas of product and service, and established a track record of success in delivering high quality software engineering innovation, products and services.
+
+\nToday we provide a wide variety of IT inter-related services, which include business consultancy, design and development of software solutions, hosting of websites, and web-based systems, and electronic advertising and marketing all in the best state-of-the-art functionality.
+"
+                    android:gravity="left"
+                    android:textSize="15dp"
+                    android:textColor="@color/colorText"
+                    />
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            card_view:cardCornerRadius="10dp"
+            app:cardBackgroundColor="@color/cardViewBackgroundColor"
+            app:cardElevation="4dp"
+            app:cardMaxElevation="6dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="2dp"
+                android:padding="2dp"
+                android:orientation="vertical"
+                android:background="@drawable/cardviewbg">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:padding="2dp"
+                    android:gravity="left"
+                    android:text="COMPANY OVERVIEW"
+                    android:textStyle="bold"
+                    android:textSize="17dp"
+                    android:textColor="@color/colorTextHeader"/>
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_margin="2dp"
+                    android:padding="5dp"
+                    android:background="@color/colorView"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_margin="5dp"
+                    android:padding="2dp"
+                    android:text="Terrestrial IT is a dynamic outfit engaged in software engineering, business consultancy, and providing IT services, enabling our clients to access our expertise in IT and Business consultancy. We have a proven and commendable record in delivering the best quality software engineering products and services, standing out for quality in this rapidly expanding sphere of innovative business.
+
+\nTerrestrial IT partners with our clients to help them achieve their business and IT needs. We have the experience, knowledge and skills to advise, design, engineer and implement solutions to medium and large scale systems that take businesses to new heights.
+
+\nOur company provides a wide range of IT and interrelated services, inclusive of business consultancy, designing and developing software solutions, hosting of web sites and web based systems, electronic marketing and, advertising etc., that reach out to the needs of today."
+                    android:gravity="left"
+                    android:textSize="15dp"
+                    android:textColor="@color/colorText"
+                    />
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            card_view:cardCornerRadius="10dp"
+            app:cardBackgroundColor="@color/cardViewBackgroundColor"
+            app:cardElevation="4dp"
+            app:cardMaxElevation="6dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="2dp"
+                android:padding="2dp"
+                android:orientation="vertical"
+                android:background="@drawable/cardviewbg">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:padding="2dp"
+                    android:gravity="left"
+                    android:text="OUR MOTO"
+                    android:textStyle="bold"
+                    android:textSize="17dp"
+                    android:textColor="@color/colorTextHeader"/>
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_margin="2dp"
+                    android:padding="5dp"
+                    android:background="@color/colorView"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_margin="5dp"
+                    android:padding="2dp"
+                    android:text="Web Application and eCommerce Solution Center"
+                    android:gravity="left"
+                    android:textSize="15dp"
+                    android:textColor="@color/colorText"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:padding="2dp"
+                    android:gravity="left"
+                    android:text="OUR MISSION"
+                    android:textStyle="bold"
+                    android:textSize="17dp"
+                    android:textColor="@color/colorTextHeader"/>
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_margin="2dp"
+                    android:padding="5dp"
+                    android:background="@color/colorView"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_margin="5dp"
+                    android:padding="2dp"
+                    android:text="Our mission is to deliver best-in-class service and support, enriching customer experience and thus becoming the most successful Information Technology services provider in the world in terms of market share, quality, revenue, growth and margins."
+                    android:gravity="left"
+                    android:textSize="15dp"
+                    android:textColor="@color/colorText"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:padding="2dp"
+                    android:gravity="left"
+                    android:text="OUR VISION"
+                    android:textStyle="bold"
+                    android:textSize="17dp"
+                    android:textColor="@color/colorTextHeader"/>
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_margin="2dp"
+                    android:padding="5dp"
+                    android:background="@color/colorView"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_margin="5dp"
+                    android:padding="2dp"
+                    android:text="Our vision is to be Bangladesh largest provider of web solutions with a global footprint and a reputation for always exceeding customer expectations."
+                    android:gravity="left"
+                    android:textSize="15dp"
+                    android:textColor="@color/colorText"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:padding="2dp"
+                    android:gravity="left"
+                    android:text="WHAT WE VALUE"
+                    android:textStyle="bold"
+                    android:textSize="17dp"
+                    android:textColor="@color/colorTextHeader"/>
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_margin="2dp"
+                    android:padding="5dp"
+                    android:background="@color/colorView"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_margin="5dp"
+                    android:padding="2dp"
+                    android:text="Quality in everything we do
+\nDirect and reliable communication
+\nSuperior customer service
+\nHiring and training competent IT Professionals
+\nEthical working environment
+\nWe are experienced
+\nOur experience in the IT industry, make us truly understand customer needs
+\nWe are reliant
+\nWe offer end-to-end solutions that are modular and sync well with existing systems to help your growth and progress
+\nWe have flexible solutions
+\nWe develop and customize solutions to suit your own requirements
+\nWe are Skilled
+\nWe are highly skilled and knowledgeable about the industry, and enjoy creating and delivering the right solutions
+"
+                    android:gravity="left"
+                    android:textSize="15dp"
+                    android:textColor="@color/colorText"
+                    />
+
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            card_view:cardCornerRadius="10dp"
+            app:cardBackgroundColor="@color/cardViewBackgroundColor"
+            app:cardElevation="4dp"
+            app:cardMaxElevation="6dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="2dp"
+                android:padding="2dp"
+                android:orientation="vertical"
+                android:background="@drawable/cardviewbg">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:padding="2dp"
+                    android:gravity="left"
+                    android:text="MANAGEMENT AND STAFF"
+                    android:textStyle="bold"
+                    android:textSize="17dp"
+                    android:textColor="@color/colorTextHeader"/>
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_margin="2dp"
+                    android:padding="5dp"
+                    android:background="@color/colorView"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_margin="5dp"
+                    android:padding="2dp"
+                    android:text="Terrestrial IT has a highly skilled and knowledgeable management and dedicated staff. They are well experienced in all aspects of the IT sector, and have specialist satisfaction in creating and delivering the right solutions.
+\nThe most valuable resource of Terrestrial IT is OUR TEAM comprising skilled and dedicated designers, programmers and support personnel. The skills and commitment of Terrestrial IT employees are the most valuable assets in a highly competitive business sector. Our policies encourage innovative thinking and creative ideas, with rewards for team players who demonstrate support for progressive and cutting edge solutions. OUR TEAM involves with you, the customer, in the sharing of knowledge and experience to achieve best results."
+                    android:gravity="left"
+                    android:textSize="15dp"
+                    android:textColor="@color/colorText"
+                    />
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            card_view:cardCornerRadius="10dp"
+            app:cardBackgroundColor="@color/cardViewBackgroundColor"
+            app:cardElevation="4dp"
+            app:cardMaxElevation="6dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="@drawable/cardviewbg">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_margin="2dp"
+                    android:padding="2dp">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:padding="2dp"
+                        android:gravity="left"
+                        android:text="TECHNOLOGY COMPETENCIES"
+                        android:textStyle="bold"
+                        android:textSize="17dp"
+                        android:textColor="@color/colorTextHeader"/>
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_margin="2dp"
+                        android:padding="5dp"
+                        android:background="@color/colorView"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_margin="5dp"
+                        android:padding="2dp"
+                        android:text="The technology competencies of Terrestrial IT, cover cutting edge and task related tools such as Joomla, Word press, Drupal, Magento, Shopify, WooCommerce and Opencart for Content Management Systems, and HTML5, CSS3, Bootstrap, AJAX, HTML, XHTML, ASPX, Jscript and PHP for web designing and web based system designing. Software competencies include coding in Asp.net, C# and Java. Further, we have exceptional knowledge and experience in MySQL, SQL and Oracle Server for database designing, and top quality skills in developing Android Apps."
+                        android:gravity="left"
+                        android:textSize="15dp"
+                        android:textColor="@color/colorText"
+                        />
+                </LinearLayout>
+                <!--<include-->
+                    <!--layout="@layout/footerlayout"/>-->
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            card_view:cardCornerRadius="10dp"
+            app:cardBackgroundColor="@color/cardViewBackgroundColor"
+            app:cardElevation="4dp"
+            app:cardMaxElevation="6dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="@color/colorTableColumn">
+
+                <!--<TextView-->
+                    <!--android:id="@+id/apply_for_training_txt_btn_id"-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:padding="10dp"-->
+                    <!--android:textStyle="italic"-->
+                    <!--android:textAlignment="center"-->
+                    <!--android:layout_gravity="center_horizontal"-->
+                    <!--android:textSize="17dp"-->
+                    <!--android:gravity="center"-->
+                    <!--android:background="@color/colorTableColumn"-->
+                    <!--android:textColor="@color/colorTextHeader"-->
+                    <!--android:text="Apply for Training"/>-->
+
+
+                <include
+                    layout="@layout/footerlayout"/>
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+    </LinearLayout>
+
+</ScrollView>

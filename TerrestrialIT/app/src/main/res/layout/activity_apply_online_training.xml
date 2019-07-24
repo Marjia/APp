@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    tools:context=".ApplyOnlineTrainingActivity"
+    tools:ignore="NamespaceTypo">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <include
+            layout="@layout/toolbar"/>
+
+        <include
+            layout="@layout/text_header"/>
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            card_view:cardCornerRadius="10dp"
+            app:cardBackgroundColor="@color/cardViewBackgroundColor"
+            app:cardElevation="4dp"
+            app:cardMaxElevation="6dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="@drawable/cardviewbg">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:background="@drawable/cardviewbg"
+                    android:layout_margin="4dp"
+                    android:padding="4dp">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Full Name"
+                        android:textStyle="bold"
+                        android:textSize="15dp"
+                        android:layout_margin="3dp"
+                        android:textColor="@color/colorTextHeader"/>
+                    <EditText
+                        android:id="@+id/name_id"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="name"
+                        android:layout_margin="3dp"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Mobile"
+                        android:textSize="15dp"
+                        android:textStyle="bold"
+                        android:layout_margin="3dp"
+                        android:textColor="@color/colorTextHeader"/>
+                    <EditText
+                        android:id="@+id/mobile_id"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="Mobile Number"
+                        android:inputType="phone"
+                        android:layout_margin="3dp"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Full Address"
+                        android:textSize="15dp"
+                        android:textStyle="bold"
+                        android:textColor="@color/colorTextHeader"
+                        android:layout_margin="3dp"/>
+                    <EditText
+                        android:id="@+id/address_id"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="Address"
+                        android:inputType="textPostalAddress"
+                        android:layout_margin="3dp"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Email"
+                        android:textSize="15dp"
+                        android:textStyle="bold"
+                        android:textColor="@color/colorTextHeader"
+                        android:layout_margin="3dp"/>
+                    <EditText
+                        android:id="@+id/email_id"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="Email"
+                        android:inputType="textEmailAddress"
+                        android:layout_margin="3dp"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="15dp"
+                        android:textStyle="bold"
+                        android:textColor="@color/colorTextHeader"
+                        android:text="National ID/Birth Certificate No."
+                        android:layout_margin="3dp"/>
+                    <EditText
+                        android:id="@+id/nationalidnumber_id"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="ID number"
+                        android:inputType="number"
+                        android:layout_margin="3dp"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="FaceBook ID"
+                        android:textSize="15dp"
+                        android:textStyle="bold"
+                        android:textColor="@color/colorTextHeader"
+                        android:layout_margin="3dp"/>
+                    <EditText
+                        android:id="@+id/facebookid_id"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="ID"
+                        android:inputType="text"
+                        android:layout_margin="3dp"/>
+
+                    <TextView
+                        android:id="@+id/dateofbirthtxt_id"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Date of Birth"
+                        android:textSize="15dp"
+                        android:textStyle="bold"
+                        android:textColor="@color/colorTextHeader"
+                        android:layout_margin="3dp"/>
+                    <EditText
+                        android:id="@+id/date_of_birth_id"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="Date of Birth"
+                        android:clickable="true"
+                        android:editable="false"
+                        android:focusable="false"
+                        android:layout_margin="3dp"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Education Qualification"
+                        android:textSize="15dp"
+                        android:textStyle="bold"
+                        android:textColor="@color/colorTextHeader"
+                        android:layout_margin="3dp"/>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_margin="3dp"
+                        >
+                        <!--android:background="@color/colorTextHeader"-->
+                        <!--android:background="#FFFF"-->
+                        <Spinner
+                            android:id="@+id/education_spinner_id"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="1dp"
+                            ></Spinner>
+                    </LinearLayout>
+
+
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Profession"
+                        android:textSize="15dp"
+                        android:textStyle="bold"
+                        android:textColor="@color/colorTextHeader"
+                        android:layout_margin="3dp"/>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_margin="3dp">
+                        <Spinner
+                            android:id="@+id/profession_spinner_id"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="1dp"></Spinner>
+                    </LinearLayout>
+                    <!---->
+                    <!--<EditText-->
+                    <!--android:id="@+id/profession_id"-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:hint="student/service/other"-->
+                    <!--android:inputType="text"/>-->
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Have personal Laptop?"
+                        android:textSize="15dp"
+                        android:textStyle="bold"
+                        android:textColor="@color/colorTextHeader"
+                        android:layout_margin="3dp"/>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_margin="2dp"
+                        >
+                        <Spinner
+                            android:id="@+id/personal_laptop_spinner_id"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="1dp"
+                            >
+                        </Spinner>
+                    </LinearLayout>
+
+                    <!--<EditText-->
+                    <!--android:id="@+id/laptop_id"-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:hint="yes/no"-->
+                    <!--android:inputType="textEmailAddress"/>-->
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Preferred Training(Choose one)"
+                        android:textSize="15dp"
+                        android:textStyle="bold"
+                        android:textColor="@color/colorTextHeader"
+                        android:layout_margin="3dp"/>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_margin="3dp">
+                        <Spinner
+                            android:id="@+id/preferred_training_spinner_id"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="1dp"></Spinner>
+                    </LinearLayout>
+
+                    <!--<EditText-->
+                    <!--android:id="@+id/preferred_training_id"-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:hint="Advance Illustrator\nWeb Development\nGraphic Design\nWordpress\nEcommerce\nSEO\CCNA\Desktop Application"-->
+                    <!--android:inputType="textEmailAddress"/>-->
+
+
+
+                    <Button
+                        android:id="@+id/send_mail_id"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Send Mail"
+                        android:textColor="#FFFFFF"
+                        android:background="@drawable/sendbuttoncornerround"/>
+
+
+                </LinearLayout>
+                <include
+                    layout="@layout/footerlayout"/>
+            </LinearLayout>
+
+            <!--<LinearLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:orientation="vertical">-->
+            <!---->
+            <!---->
+
+            <!--</LinearLayout>-->
+
+        </android.support.v7.widget.CardView>
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="5dp"
+    android:padding="2dp"
+    android:gravity="left">
+
+    <TextView
+        android:id="@+id/designation_exp_name_txt_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Designation"
+        android:textStyle="bold"
+        android:textSize="15sp"
+        android:padding="1dp"/>
+    <TextView
+        android:id="@+id/company_name_exp_txt_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Company name"
+        android:layout_gravity="left"
+        android:textSize="12sp"
+        android:layout_margin="2dp"/>
+    <TextView
+        android:id="@+id/duties_exp_txt_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Duties"
+        android:layout_gravity="left"
+        android:textSize="12sp"
+        android:layout_margin="2dp"/>
+    <TextView
+        android:id="@+id/duration_exp_txt_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2000-2004"
+        android:textSize="12sp"
+        android:padding="1dp"/>
+
+
+</LinearLayout>

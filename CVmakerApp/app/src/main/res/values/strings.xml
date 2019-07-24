@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">CVmakerApp</string>
+    <string name="my_image">my_image</string>
+    <string name="khaoudia_deo">Khaoudia deo</string>
+    <string name="kichui_pari_na">Kichui pari na</string>
+    <string name="daughter_of_night_melanin_beauty">Daughter of Night Melanin beauty</string>
+    <string name="inbox">inbox</string>
+    <string name="star">star</string>
+    <string name="draft">draft</string>
+    <string name="mail">mail</string>
+    <string name="camera">camera</string>
+    <string name="subheader">subheader</string>
+    <string name="all_mail">all mail</string>
+    <string name="trash">trash</string>
+    <string name="spam">spam</string>
+    <string name="open_drawer">Open navigation drawer</string>
+    <string name="close_drawer">Close navigation drawer</string>
+</resources>

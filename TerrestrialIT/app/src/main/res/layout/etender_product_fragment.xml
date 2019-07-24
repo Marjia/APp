@@ -1,0 +1,525 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/tools"
+    app:ignore="NamespaceTypo">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <include
+            layout="@layout/text_header"/>
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            card_view:cardCornerRadius="10dp"
+            app:cardBackgroundColor="#eeeff4"
+            app:cardElevation="4dp"
+            app:cardMaxElevation="6dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:padding="5dp"
+                android:orientation="vertical"
+                android:background="@drawable/cardviewbg">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:padding="2dp"
+                    android:gravity="left"
+                    android:text="Welcome to our eTender system!!"
+                    android:textStyle="bold"
+                    android:textSize="20dp"
+                    android:textColor="@color/colorTextHeader"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_margin="5dp"
+                    android:padding="2dp"
+                    android:text="Terrestrial IT introduces the online tendering system to facilitate the procurement process of an Organization. eTender system is an inhouse product of Terrestrial IT. The system will help you to participate in the local and international tender/procurement of your Organization. Register as a bidder and experience the immediate benefits of eTender."
+                    android:textSize="15dp"
+                    android:gravity="left"
+                    android:textColor="@color/colorText"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="2dp"
+                    android:padding="2dp"
+                    android:gravity="left"
+                    android:text="eTender is fast public procurement publishing place in Bangladesh."
+                    android:textStyle="normal"
+                    android:textSize="17dp"
+                    android:textColor="@color/colorText"/>
+
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            card_view:cardCornerRadius="10dp"
+            app:cardBackgroundColor="#eeeff4"
+            app:cardElevation="4dp"
+            app:cardMaxElevation="6dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:padding="5dp"
+                android:orientation="vertical"
+                android:background="@drawable/cardviewbg">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:padding="2dp"
+                    android:gravity="left"
+                    android:text="Why eTender ?"
+                    android:textStyle="bold"
+                    android:textSize="20dp"
+                    android:textColor="@color/colorTextHeader"/>
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:background="@color/colorView"
+                    android:layout_margin="5dp"
+                    android:padding="2dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_margin="5dp"
+                    android:padding="2dp"
+                    android:text="Manual tender processes can be long and cumbersome, often taking three months or longer, which is costly for both buyer and supplier organizations. eTender System (or Electronic Tendering System) developed by M/S Dhaka Services Company, replace these manual paper-based tender processes with electronically facilitated processes based on best tendering practices to save time and money.
+eTender System offers an opportunity for automating most of the tendering process: from help with preparing the tender specification; advertising; tender aggregation; to the evaluation and placing of the contract."
+                    android:textSize="15dp"
+                    android:gravity="left"
+                    android:textColor="@color/colorText"
+                    />
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            card_view:cardCornerRadius="10dp"
+            app:cardBackgroundColor="#eeeff4"
+            app:cardElevation="4dp"
+            app:cardMaxElevation="6dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:padding="5dp"
+                android:orientation="vertical"
+                android:background="@drawable/cardviewbg">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:padding="2dp"
+                    android:gravity="left"
+                    android:text="Business benefits:"
+                    android:textStyle="bold"
+                    android:textSize="20dp"
+                    android:textColor="@color/colorTextHeader"/>
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:background="@color/colorView"
+                    android:layout_margin="5dp"
+                    android:padding="2dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_margin="5dp"
+                    android:padding="2dp"
+                    android:text="Reduced tender cycle-time
+\nFast and accurate pre-qualification and evaluation, which enables the rejection of suppliers that fail to meet the tender specification
+\nFaster response to questions and points of clarification during the tender period
+\nReduction in the labor intensive tasks of receipt, recording and distribution of tender submissions
+\nReduction of the paper trail on tendering exercises, reducing costs to both councils and suppliers
+\nImproved audit trail increasing integrity and transparency of the tendering process
+\nImproved quality of tender specification and supplier response
+\nProvision of quality management information"
+                    android:textSize="15dp"
+                    android:gravity="left"
+                    android:textColor="@color/colorText"/>
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            card_view:cardCornerRadius="10dp"
+            app:cardBackgroundColor="#eeeff4"
+            app:cardElevation="4dp"
+            app:cardMaxElevation="6dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:padding="5dp"
+                android:orientation="vertical"
+                android:background="@drawable/cardviewbg">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:padding="2dp"
+                    android:gravity="left"
+                    android:text="eTender System encompasses:"
+                    android:textStyle="bold"
+                    android:textSize="20dp"
+                    android:textColor="@color/colorTextHeader"/>
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:background="@color/colorView"
+                    android:layout_margin="5dp"
+                    android:padding="2dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_margin="5dp"
+                    android:padding="2dp"
+                    android:text="The creation of and approval of purchase requisitions
+\nPublication of Invitation to Tender (ITT)
+\nExpression of interest (EOI)
+\nEOI management
+\nPre-qualification and selection of vendors
+\nPublication of tender documents
+\nBid submission
+\nOpening bids and bid evaluation
+\nPlacement of contract within a secure environment
+"
+                    android:textSize="15dp"
+                    android:gravity="left"
+                    android:textColor="@color/colorText"
+                    />
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            card_view:cardCornerRadius="10dp"
+            app:cardBackgroundColor="@color/cardViewBackgroundColor"
+            app:cardElevation="4dp"
+            app:cardMaxElevation="6dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="2dp"
+                android:padding="2dp"
+                android:orientation="vertical"
+                android:background="@drawable/cardviewbg">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:padding="2dp"
+                    android:gravity="left"
+                    android:text="eTender system objective"
+                    android:textStyle="bold"
+                    android:textSize="20dp"
+                    android:textColor="@color/colorTextHeader"/>
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:background="@color/colorView"
+                    android:layout_margin="5dp"
+                    android:padding="2dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_margin="5dp"
+                    android:padding="2dp"
+                    android:text="An e-Tendering System (or Electronic Tendering System) facilitates the complete tendering process from the advertising of the requirement through to the placing of the contract. This includes the exchange of all relevant documents in electronic format. The eTender System can coverage those tendering field, as follows"
+                    android:textSize="17dp"
+                    android:gravity="left"
+                    android:textColor="@color/colorTextSubHeader"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_margin="5dp"
+                    android:padding="2dp"
+                    android:text="RFQ(request for quotation)
+\nRFT(request for tender)
+\ne-bidding"
+                    android:textSize="15dp"
+                    android:gravity="left"
+                    android:textColor="@color/colorText"/>
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            card_view:cardCornerRadius="10dp"
+            app:cardBackgroundColor="@color/cardViewBackgroundColor"
+            app:cardElevation="4dp"
+            app:cardMaxElevation="6dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="@drawable/cardviewbg">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="2dp"
+                    android:padding="2dp"
+                    android:orientation="vertical"
+                    android:background="@drawable/cardviewbg">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:padding="5dp"
+                        android:textStyle="bold"
+                        android:textSize="20dp"
+                        android:textColor="@color/colorTextHeader"
+                        android:text="Comparison of Manual and eTender system"/>
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="2dp"
+                        android:background="@color/colorView"
+                        android:layout_margin="5dp"
+                        android:padding="2dp"/>
+                    <TableLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:stretchColumns="*">
+                        <TableRow
+                            android:layout_width="0dp"
+                            android:background="@color/colorTableHeader">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:padding="2dp"
+                                android:text="Manual Tendering System"
+                                android:textStyle="bold"
+                                android:textColor="@color/colorTextHeader"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:padding="2dp"
+                                android:text="eTender System"
+                                android:textStyle="bold"
+                                android:textColor="@color/colorTextHeader"/>
+                        </TableRow>
+                        <TableRow
+                            android:layout_width="0dp"
+                            >
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:padding="2dp"
+                                android:text="Longer Procurement"
+                                android:textStyle="normal"
+                                android:textColor="@color/colorText"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:padding="2dp"
+                                android:text="Shorter Procurement"
+                                android:textStyle="normal"
+                                android:textColor="@color/colorText"/>
+                        </TableRow>
+                        <TableRow
+                            android:layout_width="0dp"
+                            android:layout_gravity="center_horizontal">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:padding="2dp"
+                                android:text="Expensive"
+                                android:textStyle="normal"
+                                android:textColor="@color/colorText"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:padding="2dp"
+                                android:text="Economical – Fixed Cost"
+                                android:textStyle="normal"
+                                android:textColor="@color/colorText"/>
+                        </TableRow>
+                        <TableRow
+                            android:layout_width="0dp">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:padding="2dp"
+                                android:text="Paper Based"
+                                android:textStyle="normal"
+                                android:textColor="@color/colorText"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:padding="2dp"
+                                android:text="Environment Friendly"
+                                android:textStyle="normal"
+                                android:textColor="@color/colorText"/>
+                        </TableRow>
+                        <TableRow
+                            android:layout_width="0dp">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:padding="2dp"
+                                android:text="Procurement Restricted Mobility"
+                                android:textStyle="normal"
+                                android:textColor="@color/colorText"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:padding="2dp"
+                                android:text="Anytime – Anywhere"
+                                android:textStyle="normal"
+                                android:textColor="@color/colorText"/>
+                        </TableRow>
+                        <TableRow android:layout_width="0dp">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:padding="2dp"
+                                android:text="No work on Holidays\nand after office hours	"
+                                android:textStyle="normal"
+                                android:textColor="@color/colorText"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:padding="2dp"
+                                android:text="Bidding possible\non Holidays\nand after\noffice hrs"
+                                android:textStyle="normal"
+                                android:textColor="@color/colorText"/>
+                        </TableRow>
+                        <TableRow android:layout_width="0dp">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:padding="2dp"
+                                android:text="Prone to\nHuman errors"
+                                android:textStyle="normal"
+                                android:textColor="@color/colorText"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:padding="2dp"
+                                android:text="Automated\nand\nAccurate"
+                                android:textStyle="normal"
+                                android:textColor="@color/colorText"/>
+                        </TableRow>
+                        <TableRow android:layout_width="0dp">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:padding="2dp"
+                                android:text="Content not\nsharable Process"
+                                android:textStyle="normal"
+                                android:textColor="@color/colorText"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:padding="2dp"
+                                android:text="Shareable Content"
+                                android:textStyle="normal"
+                                android:textColor="@color/colorText"/>
+                        </TableRow>
+                        <TableRow android:layout_width="0dp">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:padding="2dp"
+                                android:text="Physical Security"
+                                android:textStyle="normal"
+                                android:textColor="@color/colorText"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:padding="2dp"
+                                android:text="Foolproof Security"
+                                android:textStyle="normal"
+                                android:textColor="@color/colorText"/>
+                        </TableRow>
+                        <TableRow android:layout_width="0dp">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:padding="2dp"
+                                android:text="Difficult\nto retrieve"
+                                android:textStyle="normal"
+                                android:textColor="@color/colorText"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:padding="2dp"
+                                android:text="One click\naccess to bids"
+                                android:textStyle="normal"
+                                android:textColor="@color/colorText"/>
+                        </TableRow>
+                    </TableLayout>
+                </LinearLayout>
+
+
+                <!--<TextView-->
+                    <!--android:id="@+id/submit_quate_txt_id"-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:text="Request for Demo "-->
+                    <!--android:textSize="17dp"-->
+                    <!--android:layout_margin="3dp"-->
+                    <!--android:padding="1dp"-->
+                    <!--android:textStyle="italic"-->
+                    <!--android:textColor="@color/colorPrimaryDark"-->
+                    <!--/>-->
+                <!--<include-->
+                    <!--layout="@layout/footerlayout"/>-->
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            card_view:cardCornerRadius="10dp"
+            app:cardBackgroundColor="@color/cardViewBackgroundColor"
+            app:cardElevation="4dp"
+            app:cardMaxElevation="6dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="@color/colorTableColumn">
+
+                <TextView
+                    android:id="@+id/submit_quate_txt_id"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:textStyle="italic"
+                    android:textAlignment="center"
+                    android:layout_gravity="center_horizontal"
+                    android:textSize="17dp"
+                    android:gravity="center"
+                    android:background="@color/colorTableColumn"
+                    android:textColor="@color/colorTextHeader"
+                    android:text="Request for Demo"/>
+
+
+                <include
+                    layout="@layout/footerlayout"/>
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+
+    </LinearLayout>
+
+</ScrollView>

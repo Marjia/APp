@@ -1,0 +1,375 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/tools"
+    app:ignore="NamespaceTypo">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <include
+            layout="@layout/toolbar"/>
+        <include
+            layout="@layout/text_header"/>
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            card_view:cardCornerRadius="10dp"
+            app:cardBackgroundColor="@color/cardViewBackgroundColor"
+            app:cardElevation="4dp"
+            app:cardMaxElevation="6dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="@drawable/cardviewbg">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:background="@drawable/cardviewbg"
+                    android:layout_margin="4dp"
+                    android:padding="4dp">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Tell Us About your Project"
+                        android:textSize="17sp"
+                        android:layout_margin="4dp"
+                        android:background="@color/colorTableColumn"
+                        android:textColor="@color/colorTextSubHeader"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="What Servicec may we assist you with?"
+                        android:textSize="15dp"
+                        android:textStyle="bold"
+                        android:textColor="@color/colorTextHeader"
+                        android:layout_margin="3dp"/>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_margin="3dp"
+                        >
+                        <!--android:background="@color/colorTextHeader"-->
+                        <!--android:background="#FFFF"-->
+                        <Spinner
+                            android:id="@+id/service_spinner_id"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="1dp"
+                            ></Spinner>
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="How urgent is this project?"
+                        android:textSize="15dp"
+                        android:textStyle="bold"
+                        android:textColor="@color/colorTextHeader"
+                        android:layout_margin="3dp"/>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_margin="3dp"
+                        >
+                        <!--android:background="@color/colorTextHeader"-->
+                        <!--android:background="#FFFF"-->
+                        <Spinner
+                            android:id="@+id/urgent_progect_spinner_id"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="1dp"
+                            ></Spinner>
+                    </LinearLayout>
+
+
+                    <TextView
+                        android:id="@+id/duedatetxt_id"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Due Date"
+                        android:textSize="15dp"
+                        android:textStyle="bold"
+                        android:textColor="@color/colorTextHeader"
+                        android:layout_margin="3dp"/>
+                    <EditText
+                        android:id="@+id/due_date_id"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="Due Date"
+                        android:clickable="true"
+                        android:editable="false"
+                        android:focusable="false"
+                        android:layout_margin="3dp"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Describe your project"
+                        android:textSize="15dp"
+                        android:textStyle="bold"
+                        android:focusable="false"
+                        android:textColor="@color/colorTextHeader"
+                        android:layout_margin="3dp"/>
+                    <EditText
+                        android:id="@+id/project_description_id"
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:hint="Project description"
+                        android:inputType="textLongMessage"
+                        android:textSize="15sp"
+                        android:layout_margin="3dp"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="4dp"
+                        android:textSize="17sp"
+                        android:background="@color/colorTableColumn"
+                        android:text="Tell us about you ...."
+                        android:textColor="@color/colorTextSubHeader"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Full Name"
+                        android:textStyle="bold"
+                        android:textSize="15dp"
+                        android:layout_margin="3dp"
+                        android:textColor="@color/colorTextHeader"/>
+                    <EditText
+                        android:id="@+id/name_id"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="name"
+                        android:layout_margin="3dp"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Mobile"
+                        android:textSize="15dp"
+                        android:textStyle="bold"
+                        android:layout_margin="3dp"
+                        android:textColor="@color/colorTextHeader"/>
+                    <EditText
+                        android:id="@+id/mobile_id"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="Mobile Number"
+                        android:inputType="phone"
+                        android:layout_margin="3dp"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Email"
+                        android:textSize="15dp"
+                        android:textStyle="bold"
+                        android:textColor="@color/colorTextHeader"
+                        android:layout_margin="3dp"/>
+                    <EditText
+                        android:id="@+id/email_id"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="Email"
+                        android:inputType="textEmailAddress"
+                        android:layout_margin="3dp"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Address"
+                        android:textSize="15dp"
+                        android:textStyle="bold"
+                        android:textColor="@color/colorTextHeader"
+                        android:layout_margin="3dp"/>
+                    <EditText
+                        android:id="@+id/address_id"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="Address"
+                        android:inputType="textPostalAddress"
+                        android:layout_margin="3dp"/>
+
+                    <!--<TextView-->
+                    <!--android:id="@+id/dateofbirthtxt_id"-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:text="Date of Birth"-->
+                    <!--android:textSize="15dp"-->
+                    <!--android:textStyle="bold"-->
+                    <!--android:textColor="@color/colorTextHeader"-->
+                    <!--android:layout_margin="3dp"/>-->
+                    <!--<EditText-->
+                    <!--android:id="@+id/date_of_birth_id"-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:hint="Date of Birth"-->
+                    <!--android:clickable="true"-->
+                    <!--android:editable="false"-->
+                    <!--android:focusable="false"-->
+                    <!--android:layout_margin="3dp"/>-->
+
+
+
+
+                    <!--<TextView-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:text="Profession"-->
+                    <!--android:textSize="15dp"-->
+                    <!--android:textStyle="bold"-->
+                    <!--android:textColor="@color/colorTextHeader"-->
+                    <!--android:layout_margin="3dp"/>-->
+
+                    <!--<LinearLayout-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:orientation="vertical"-->
+                    <!--android:layout_margin="3dp">-->
+                    <!--<Spinner-->
+                    <!--android:id="@+id/profession_spinner_id"-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_margin="1dp"></Spinner>-->
+                    <!--</LinearLayout>-->
+                    <!--&lt;!&ndash;&ndash;&gt;-->
+                    <!--&lt;!&ndash;<EditText&ndash;&gt;-->
+                    <!--&lt;!&ndash;android:id="@+id/profession_id"&ndash;&gt;-->
+                    <!--&lt;!&ndash;android:layout_width="match_parent"&ndash;&gt;-->
+                    <!--&lt;!&ndash;android:layout_height="wrap_content"&ndash;&gt;-->
+                    <!--&lt;!&ndash;android:hint="student/service/other"&ndash;&gt;-->
+                    <!--&lt;!&ndash;android:inputType="text"/>&ndash;&gt;-->
+                    <!--<TextView-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:text="Have personal Laptop?"-->
+                    <!--android:textSize="15dp"-->
+                    <!--android:textStyle="bold"-->
+                    <!--android:textColor="@color/colorTextHeader"-->
+                    <!--android:layout_margin="3dp"/>-->
+
+                    <!--<LinearLayout-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:orientation="vertical"-->
+                    <!--android:layout_margin="2dp"-->
+                    <!--&gt;-->
+                    <!--<Spinner-->
+                    <!--android:id="@+id/personal_laptop_spinner_id"-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_margin="1dp"-->
+                    <!--&gt;-->
+                    <!--</Spinner>-->
+                    <!--</LinearLayout>-->
+
+                    <!--&lt;!&ndash;<EditText&ndash;&gt;-->
+                    <!--&lt;!&ndash;android:id="@+id/laptop_id"&ndash;&gt;-->
+                    <!--&lt;!&ndash;android:layout_width="match_parent"&ndash;&gt;-->
+                    <!--&lt;!&ndash;android:layout_height="wrap_content"&ndash;&gt;-->
+                    <!--&lt;!&ndash;android:hint="yes/no"&ndash;&gt;-->
+                    <!--&lt;!&ndash;android:inputType="textEmailAddress"/>&ndash;&gt;-->
+                    <!--<TextView-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:text="Preferred Training(Choose one)"-->
+                    <!--android:textSize="15dp"-->
+                    <!--android:textStyle="bold"-->
+                    <!--android:textColor="@color/colorTextHeader"-->
+                    <!--android:layout_margin="3dp"/>-->
+                    <!--<LinearLayout-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:orientation="vertical"-->
+                    <!--android:layout_margin="3dp">-->
+                    <!--<Spinner-->
+                    <!--android:id="@+id/preferred_training_spinner_id"-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_margin="1dp"></Spinner>-->
+                    <!--</LinearLayout>-->
+
+                    <!--&lt;!&ndash;<EditText&ndash;&gt;-->
+                    <!--&lt;!&ndash;android:id="@+id/preferred_training_id"&ndash;&gt;-->
+                    <!--&lt;!&ndash;android:layout_width="match_parent"&ndash;&gt;-->
+                    <!--&lt;!&ndash;android:layout_height="wrap_content"&ndash;&gt;-->
+                    <!--&lt;!&ndash;android:hint="Advance Illustrator\nWeb Development\nGraphic Design\nWordpress\nEcommerce\nSEO\CCNA\Desktop Application"&ndash;&gt;-->
+                    <!--&lt;!&ndash;android:inputType="textEmailAddress"/>&ndash;&gt;-->
+
+
+
+                    <Button
+                        android:id="@+id/send_mail_id"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Send Mail"
+                        android:textColor="#FFFFFF"
+                        android:background="@drawable/sendbuttoncornerround"/>
+
+
+                </LinearLayout>
+                <include
+                    layout="@layout/footerlayout"/>
+            </LinearLayout>
+
+
+        </android.support.v7.widget.CardView>
+    </LinearLayout>
+
+    <!--<LinearLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:orientation="vertical">-->
+
+        <!--&lt;!&ndash;<include&ndash;&gt;-->
+        <!--&lt;!&ndash;layout="@layout/text_header"/>&ndash;&gt;-->
+        <!--&lt;!&ndash;<android.support.v7.widget.CardView&ndash;&gt;-->
+            <!--&lt;!&ndash;android:layout_width="match_parent"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:layout_height="wrap_content"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:layout_margin="10dp"&ndash;&gt;-->
+            <!--&lt;!&ndash;card_view:cardCornerRadius="10dp"&ndash;&gt;-->
+            <!--&lt;!&ndash;app:cardBackgroundColor="@color/cardViewBackgroundColor"&ndash;&gt;-->
+            <!--&lt;!&ndash;app:cardElevation="4dp"&ndash;&gt;-->
+            <!--&lt;!&ndash;app:cardMaxElevation="6dp">&ndash;&gt;-->
+            <!--&lt;!&ndash;<RelativeLayout&ndash;&gt;-->
+                <!--&lt;!&ndash;android:layout_width="match_parent"&ndash;&gt;-->
+                <!--&lt;!&ndash;android:layout_height="match_parent"&ndash;&gt;-->
+                <!--&lt;!&ndash;android:layout_margin="10dp"&ndash;&gt;-->
+                <!--&lt;!&ndash;android:padding="5dp"&ndash;&gt;-->
+                <!--&lt;!&ndash;android:orientation="vertical">&ndash;&gt;-->
+
+                <!--&lt;!&ndash;<WebView&ndash;&gt;-->
+                    <!--&lt;!&ndash;android:id="@+id/webview_id"&ndash;&gt;-->
+                    <!--&lt;!&ndash;android:layout_width="match_parent"&ndash;&gt;-->
+                    <!--&lt;!&ndash;android:layout_height="match_parent"&ndash;&gt;-->
+                    <!--&lt;!&ndash;android:layout_alignParentTop="true" />&ndash;&gt;-->
+
+                <!--&lt;!&ndash;<ProgressBar&ndash;&gt;-->
+                    <!--&lt;!&ndash;android:id="@+id/progress_bar_id"&ndash;&gt;-->
+                    <!--&lt;!&ndash;style="?android:attr/progressBarStyleHorizontal"&ndash;&gt;-->
+                    <!--&lt;!&ndash;android:layout_width="50dp"&ndash;&gt;-->
+                    <!--&lt;!&ndash;android:layout_height="50dp"&ndash;&gt;-->
+                    <!--&lt;!&ndash;android:layout_alignParentTop="true"&ndash;&gt;-->
+                    <!--&lt;!&ndash;android:layout_centerHorizontal="true"&ndash;&gt;-->
+                    <!--&lt;!&ndash;android:layout_gravity="center_vertical"&ndash;&gt;-->
+                    <!--&lt;!&ndash;android:layout_marginTop="56dp"&ndash;&gt;-->
+                    <!--&lt;!&ndash;android:foregroundGravity="center"&ndash;&gt;-->
+                    <!--&lt;!&ndash;android:indeterminate="true"&ndash;&gt;-->
+                    <!--&lt;!&ndash;android:indeterminateDrawable="@drawable/circular_progress_bar" />&ndash;&gt;-->
+            <!--&lt;!&ndash;</RelativeLayout>&ndash;&gt;-->
+        <!--&lt;!&ndash;</android.support.v7.widget.CardView>&ndash;&gt;-->
+    <!--</LinearLayout>-->
+
+</ScrollView>

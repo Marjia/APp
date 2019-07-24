@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">NumberVerificationWithSMS</string>
+    <string name="FACEBOOK_APP_ID">728582944155525</string>
+    <string name="ACCOUNT_KIT_CLIENT_TOKEN">[2ac7d11784b060e3eaf4f0546d058035]</string>
+    <string name="AK_LOGIN_PROTOCOL_SCHEME">[5ca4b821ce0003d3ebcbb1a5b7693430]</string>
+
+</resources>

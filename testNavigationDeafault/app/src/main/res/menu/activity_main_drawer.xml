@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_show_cv"
+            android:icon="@drawable/cvshow"
+            android:title="Show CV" />
+        <item
+            android:id="@+id/nav_education_quality"
+            android:icon="@drawable/educationquality"
+            android:title="Education Qualification" />
+        <item
+            android:id="@+id/nav_work_experiance"
+            android:icon="@drawable/workexperiance"
+            android:title="Work Experiance" />
+        <item
+            android:id="@+id/nav_training_summary"
+            android:icon="@drawable/trainingsummary"
+            android:title="Training Summary" />
+        <item
+
+            android:id="@+id/nav_specialization"
+            android:icon="@drawable/specialization"
+            android:title="Specialization" />
+        <item
+
+            android:id="@+id/nav_extra_curricular_activity"
+            android:icon="@drawable/extracurricularactivity"
+            android:title="Extra Curricular activity" />
+        <item
+            android:id="@+id/language_proficiency"
+            android:icon="@drawable/languageproficiency"
+            android:title="Language Proficiency" />
+        <item
+            android:id="@+id/nav_personal_info"
+            android:icon="@drawable/personalinfo"
+            android:title="Personal Information" />
+        <item
+            android:id="@+id/nav_reference"
+            android:icon="@drawable/reference"
+            android:title="Reference" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+            <item
+                android:id="@+id/nav_send"
+                android:title="Sign out" />
+        </menu>
+    </item>
+
+</menu>

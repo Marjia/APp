@@ -1,0 +1,366 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/tools"
+    app:ignore="NamespaceTypo">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="5dp"
+        android:padding="5dp"
+        >
+        <include
+            layout="@layout/toolbar"/>
+        <include
+            layout="@layout/text_header"/>
+
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="2dp"
+            card_view:cardCornerRadius="5dp"
+            app:cardBackgroundColor="@color/cardViewBackgroundColor">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:weightSum="5">
+
+                <ImageView
+                    android:id="@+id/responsivedesignimage_id"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:layout_margin="2dp"
+                    android:padding="2dp"
+                    android:src="@drawable/development"/>
+                <!--/>-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/responsivedesigntitle_id"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Responsive Webdesign"
+                        android:layout_centerHorizontal="true"
+                        android:layout_centerVertical="true"
+                        android:layout_margin="2dp"
+                        android:padding="2dp"
+                        android:textSize="17sp"
+                        android:textStyle="bold"
+                        android:textColor="@color/colorTextHeader"/>
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="2dp"
+                        android:layout_margin="1dp"
+                        android:padding="1dp"
+                        android:background="@color/colorView"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Terrestrial IT is full-service Web Development company offering an extensive range of Internet services to businesses an organizations around the world. We are specialized in web development, e-commerce, mobile development, hosting and more."
+                        android:textSize="15dp"
+                        android:padding="2dp"
+                        android:layout_gravity="left"
+                        android:textColor="@color/colorText"/>
+                </LinearLayout>
+            </LinearLayout>
+
+
+        </android.support.v7.widget.CardView>
+
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="2dp"
+            card_view:cardCornerRadius="5dp"
+            app:cardBackgroundColor="@color/cardViewBackgroundColor">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:weightSum="4">
+
+                <!--<ImageView-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="0dp"-->
+                <!--android:layout_margin="5dp"-->
+                <!--android:layout_weight="2"-->
+                <!--android:padding="5dp"-->
+                <!--android:src="@drawable/whywebsiteimage"-->
+                <!--android:scaleType="centerCrop"/>-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Why Website?"
+                        android:layout_centerHorizontal="true"
+                        android:layout_centerVertical="true"
+                        android:layout_margin="2dp"
+                        android:padding="2dp"
+                        android:textSize="17sp"
+                        android:textStyle="bold"
+                        android:textColor="@color/colorTextHeader"/>
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="2dp"
+                        android:layout_margin="1dp"
+                        android:padding="1dp"
+                        android:background="@color/colorView"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Increase your business inquires and revenue Allow your client to easily access your product information Improve your professional image Provide a great online user experience Keep your audience informed Work efficiently"
+                        android:textSize="15dp"
+                        android:layout_margin="2dp"
+                        android:padding="2dp"
+                        android:textColor="@color/colorText"/>
+                </LinearLayout>
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="2dp"
+            card_view:cardCornerRadius="5dp"
+            app:cardBackgroundColor="@color/cardViewBackgroundColor">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:weightSum="4">
+                <!--<ImageView-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="0dp"-->
+                <!--android:layout_weight="2"-->
+                <!--android:layout_margin="5dp"-->
+                <!--android:padding="5dp"-->
+                <!--android:src="@drawable/bestdesignimagenew"-->
+                <!--android:scaleType="centerCrop"/>-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Best Design"
+                        android:layout_centerHorizontal="true"
+                        android:layout_centerVertical="true"
+                        android:layout_margin="1dp"
+                        android:padding="1dp"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+                        android:textColor="@color/colorTextHeader"/>
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="2dp"
+                        android:layout_margin="1dp"
+                        android:padding="1dp"
+                        android:background="@color/colorView"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="We are the Best web design company in Bangladesh (in terms of best website design)… We offer both business and eCommerce websites with HTML and CMS designs. We can help you promote your small business online with a great looking custom website. We will work with you to create a design that is suitable for you and your needs. We can do so by using modern, easily accessible, standard base design methods; or by creating a unique design from scratch using your sketch or Photoshop file. Our professional web designers have custom created thousands of deeply enriching, creative websites and brand enhancing solutions. We have insight-driven teams who deeply understand our customers and deliver on all performance objectives. "
+                        android:textSize="15dp"
+                        android:layout_margin="2dp"
+                        android:padding="2dp"
+                        android:textColor="@color/colorText"/>
+                </LinearLayout>
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="2dp"
+            card_view:cardCornerRadius="5dp"
+            app:cardBackgroundColor="@color/cardViewBackgroundColor"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:weightSum="4">
+
+                <!--<ImageView-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="0dp"-->
+                <!--android:layout_weight="2"-->
+                <!--android:layout_margin="5dp"-->
+                <!--android:padding="5dp"-->
+                <!--android:src="@drawable/matchsticknew"-->
+                <!--android:scaleType="centerCrop"/>-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Regenerate Old Site"
+                        android:layout_centerHorizontal="true"
+                        android:layout_centerVertical="true"
+                        android:layout_margin="2dp"
+                        android:padding="2dp"
+                        android:textSize="17sp"
+                        android:textStyle="bold"
+                        android:textColor="@color/colorTextHeader"/>
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="2dp"
+                        android:layout_margin="1dp"
+                        android:padding="1dp"
+                        android:background="@color/colorView"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Whether you are looking to get a new website design for your business or whether you are looking to give your old site or logo a touch up or a brand-new look, we are here to accommodate you with your needs. We can show you how easy it is to have your own business BLOG, demonstrate our affordable E-commerce solutions and explain how they can help you sell more with less effort. We can also teach you how to increase your site traffic, and we can host and maintain your site for you at an affordable rate"
+                        android:textSize="15dp"
+                        android:layout_margin="2dp"
+                        android:padding="2dp"
+                        android:textColor="@color/colorText"/>
+                </LinearLayout>
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="2dp"
+            card_view:cardCornerRadius="5dp"
+            app:cardBackgroundColor="@color/cardViewBackgroundColor">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:weightSum="4">
+
+                <!--<ImageView-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="0dp"-->
+                <!--android:layout_weight="2"-->
+                <!--android:layout_margin="5dp"-->
+                <!--android:padding="5dp"-->
+                <!--android:src="@drawable/consultancimagenew"-->
+                <!--android:scaleType="centerCrop"/>-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Consultation"
+                        android:layout_centerHorizontal="true"
+                        android:layout_centerVertical="true"
+                        android:layout_margin="2dp"
+                        android:padding="2dp"
+                        android:textSize="17sp"
+                        android:textStyle="bold"
+                        android:textColor="@color/colorTextHeader"/>
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="2dp"
+                        android:layout_margin="1dp"
+                        android:padding="1dp"
+                        android:background="@color/colorView"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Contact us today for a free website design consultation with one of our web design professionals. We will help define your needs and guide you to the best plan for your situation. If you are unable to speak with us right now, please fill out the contact form and a dedicated team member will get back to you promptly. Whatever your needs may be, our goal is to provide you with exceptional web page design and great customer service! "
+                        android:textSize="15dp"
+                        android:layout_margin="2dp"
+                        android:padding="2dp"
+                        android:textColor="@color/colorText"/>
+                    <!--<TextView-->
+                        <!--android:id="@+id/apply_for_training_txt_btn_id"-->
+                        <!--android:layout_width="wrap_content"-->
+                        <!--android:layout_height="wrap_content"-->
+                        <!--android:layout_margin="2dp"-->
+                        <!--android:textStyle="italic"-->
+                        <!--android:textSize="16dp"-->
+                        <!--android:gravity="left"-->
+                        <!--android:textColor="@color/colorTextHeader"-->
+                        <!--android:text="Apply for Training"/>-->
+
+                </LinearLayout>
+                <!--<include-->
+                    <!--layout="@layout/footerlayout"/>-->
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            card_view:cardCornerRadius="10dp"
+            app:cardBackgroundColor="@color/cardViewBackgroundColor"
+            app:cardElevation="4dp"
+            app:cardMaxElevation="6dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="@color/colorTableColumn">
+
+                <TextView
+                    android:id="@+id/apply_for_training_txt_btn_id"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:textStyle="italic"
+                    android:textAlignment="center"
+                    android:layout_gravity="center_horizontal"
+                    android:textSize="17dp"
+                    android:gravity="center"
+                    android:background="@color/colorTableColumn"
+                    android:textColor="@color/colorTextHeader"
+                    android:text="Apply for Training"/>
+
+
+                <include
+                    layout="@layout/footerlayout"/>
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+
+
+    </LinearLayout>
+
+
+</ScrollView>

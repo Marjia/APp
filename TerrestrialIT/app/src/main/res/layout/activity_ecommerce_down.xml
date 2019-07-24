@@ -1,0 +1,921 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/tools"
+    app:ignore="NamespaceTypo">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <include
+            layout="@layout/toolbar"/>
+        <include
+            layout="@layout/text_header"/>
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            card_view:cardCornerRadius="10dp"
+            app:cardBackgroundColor="@color/cardViewBackgroundColor"
+            app:cardElevation="4dp"
+            app:cardMaxElevation="6dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="2dp"
+                android:padding="2dp"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="220sp"
+                    android:src="@drawable/ecommerceimageone"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:padding="2dp"
+                    android:gravity="left"
+                    android:text="What is eCommerce?"
+                    android:textStyle="normal"
+                    android:textSize="17dp"
+                    android:textColor="@color/colorTextHeader"/>
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:background="@color/colorView"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="left"
+                    android:layout_margin="5dp"
+                    android:padding="5dp"
+                    android:text="eCommerce means Electronics Commerce, Which allows you to sale your products online. Unlike traditional store, you need not to invest a huge amount of money to decoration or marketing.
+
+It’s pretty easy to decorate your online store with a batch of products. There is a lot of way to reach the clients form far way with your website. SEO, SMM will support you to achieve the goal and get best ROI (Returns of Investment) from your store."
+                    android:textStyle="normal"
+                    android:textColor="@color/colorText"/>
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            card_view:cardCornerRadius="10dp"
+            app:cardBackgroundColor="@color/cardViewBackgroundColor"
+            app:cardElevation="4dp"
+            app:cardMaxElevation="6dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="2dp"
+                android:padding="2dp"
+                android:orientation="vertical"
+                >
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="220sp"
+                    android:src="@drawable/ecommerceimagetwo" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:padding="2dp"
+                    android:gravity="left"
+                    android:text="Advantages of eCommerce"
+                    android:textStyle="normal"
+                    android:textSize="17dp"
+                    android:textColor="@color/colorTextHeader"/>
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:background="@color/colorView"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="left"
+                    android:layout_margin="5dp"
+                    android:padding="5dp"
+                    android:text="It will overcome your geographical limits, and grow your business worldwide
+Reach to customers with search engine visibility
+Marketing cost will deduced, when comparing with local marketing policy
+Deduce travel cost and time of clients.
+Have opportunity for Offers, Coupons and Discounts
+Get the targeted clients to sale
+Open All time 24/7"
+                    android:textStyle="normal"
+                    android:textColor="@color/colorText"/>
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="2dp"
+            card_view:cardCornerRadius="5dp"
+            app:cardBackgroundColor="@color/cardViewBackgroundColor"
+            android:layout_below="@+id/searchengineoptimiation_card_id"
+            android:background="@drawable/cardviewbg">
+
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:stretchColumns="*">
+                <TableRow
+                    android:layout_width="0dp"
+                    android:background="@color/colorTableHeader">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="2dp"
+                        android:text="     "
+                        android:textStyle="normal" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="2dp"
+                        android:text="Basic"
+                        android:textStyle="normal"
+                        android:textColor="@color/colorTextHeader"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="2dp"
+                        android:text="Professional"
+                        android:textStyle="normal"
+                        android:textColor="@color/colorTextHeader"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="2dp"
+                        android:text="Advanced"
+                        android:textStyle="normal"
+                        android:textColor="@color/colorTextHeader"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="2dp"
+                        android:text="Premium"
+                        android:textStyle="normal"
+                        android:textColor="@color/colorTextHeader"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="2dp"
+                        android:text="Custom"
+                        android:textStyle="normal"
+                        android:textColor="@color/colorTextHeader"/>
+                </TableRow>
+                <TableRow
+                    android:layout_width="0dp">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="2dp"
+                        android:text="Domain"
+                        android:textStyle="normal"
+                        android:textColor="@color/colorText"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="2dp"
+                        android:text="Yes"
+                        android:textStyle="normal"
+                        android:textColor="@color/colorText"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="2dp"
+                        android:text="Yes"
+                        android:textStyle="normal"
+                        android:textColor="@color/colorText"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="2dp"
+                        android:text="Yes"
+                        android:textStyle="normal"
+                        android:textColor="@color/colorText"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="2dp"
+                        android:text="Yes"
+                        android:textStyle="normal"
+                        android:textColor="@color/colorText"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="2dp"
+                        android:text="Yes"
+                        android:textStyle="normal"
+                        android:textColor="@color/colorText"/>
+                </TableRow>
+                <TableRow
+                    android:layout_width="0dp"
+                    android:background="@color/colorTableColumn">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="2dp"
+                        android:text="Hosting"
+                        android:textStyle="normal"
+                        android:textColor="@color/colorText"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="2dp"
+                        android:text="1GB-20GB"
+                        android:textStyle="normal"
+                        android:textColor="@color/colorText"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="2dp"
+                        android:text="1GB-20BG"
+                        android:textStyle="normal"
+                        android:textColor="@color/colorText"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="2dp"
+                        android:text="2GB-40GB"
+                        android:textStyle="normal"
+                        android:textColor="@color/colorText"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="2dp"
+                        android:text="2GB-40GB"
+                        android:textStyle="normal"
+                        android:textColor="@color/colorText"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="2dp"
+                        android:text="5GB-100GB"
+                        android:textStyle="normal"
+                        android:textColor="@color/colorText"/>
+                </TableRow>
+                <TableRow
+                    android:layout_width="0dp">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="2dp"
+                        android:text="Design\nSample"
+                        android:textStyle="normal" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="2dp"
+                        android:text="1"
+                        android:textStyle="normal"
+                        android:textColor="@color/colorText"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="2dp"
+                        android:text="3"
+                        android:textStyle="normal"
+                        android:textColor="@color/colorText"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="2dp"
+                        android:text="5"
+                        android:textStyle="normal"
+                        android:textColor="@color/colorText"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="2dp"
+                        android:text="Custom"
+                        android:textStyle="normal"
+                        android:textColor="@color/colorText"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="2dp"
+                        android:text="Custom"
+                        android:textStyle="normal"
+                        android:textColor="@color/colorText"/>
+                </TableRow>
+                <TableRow
+                    android:layout_width="0dp"
+                    android:background="@color/colorTableColumn">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="2dp"
+                        android:text="Payment\nMethod"
+                        android:textStyle="normal"
+                        android:textColor="@color/colorText"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="2dp"
+                        android:text="Cash\non\nDelivery"
+                        android:textStyle="normal"
+                        android:textColor="@color/colorText"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="2dp"
+                        android:text="COD,bKash"
+                        android:textStyle="normal"
+                        android:textColor="@color/colorText"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="2dp"
+                        android:text="COD,bKash"
+                        android:textStyle="normal"
+                        android:textColor="@color/colorText"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="2dp"
+                        android:padding="2dp"
+                        android:text="COD,bKash"
+                        android:textStyle="normal"
+                        android:textColor="@color/colorText"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="2dp"
+                        android:text="COD,bKash"
+                        android:textStyle="normal"
+                        android:textColor="@color/colorText"/>
+
+                </TableRow>
+                <TableRow
+                    android:layout_width="0dp">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="2dp"
+                        android:text="Multiple\nSeller"
+                        android:textStyle="normal" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="2dp"
+                        android:text="No"
+                        android:textStyle="normal"
+                        android:textColor="@color/colorText"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="2dp"
+                        android:text="No"
+                        android:textStyle="normal"
+                        android:textColor="@color/colorText"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="2dp"
+                        android:text="No"
+                        android:textStyle="normal"
+                        android:textColor="@color/colorText"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="2dp"
+                        android:text="Yes"
+                        android:textStyle="normal"
+                        android:textColor="@color/colorText"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="2dp"
+                        android:text="Yes"
+                        android:textStyle="normal"
+                        android:textColor="@color/colorText"/>
+                </TableRow>
+                <TableRow
+                    android:layout_width="0dp"
+                    android:background="@color/colorTableColumn">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="2dp"
+                        android:text="Data\nBackup"
+                        android:textStyle="normal"
+                        android:textColor="@color/colorText"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="2dp"
+                        android:text="No"
+                        android:textStyle="normal"
+                        android:textColor="@color/colorText"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="2dp"
+                        android:padding="2dp"
+                        android:text="No"
+                        android:textStyle="normal"
+                        android:textColor="@color/colorText"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="2dp"
+                        android:padding="2dp"
+                        android:text="Monthly"
+                        android:textStyle="normal"
+                        android:textColor="@color/colorText"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="2dp"
+                        android:text="Weekly"
+                        android:textStyle="normal"
+                        android:textColor="@color/colorText"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="2dp"
+                        android:padding="2dp"
+                        android:text="Real-Time"
+                        android:textStyle="normal"
+                        android:textColor="@color/colorText"/>
+                </TableRow>
+                <TableRow
+                    android:layout_width="0dp">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="2dp"
+                        android:text="SEO"
+                        android:textStyle="normal"
+                        android:textColor="@color/colorText"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="2dp"
+                        android:text="No"
+                        android:textStyle="normal"
+                        android:textColor="@color/colorText"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="2dp"
+                        android:text="No"
+                        android:textStyle="normal"
+                        android:textColor="@color/colorText"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="2dp"
+                        android:text="No"
+                        android:textStyle="normal"
+                        android:textColor="@color/colorText"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="2dp"
+                        android:text="No"
+                        android:textStyle="normal"
+                        android:textColor="@color/colorText"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="2dp"
+                        android:padding="2dp"
+                        android:text="Basic"
+                        android:textStyle="normal"
+                        android:textColor="@color/colorText"/>
+                </TableRow>
+                <TableRow
+                    android:layout_width="0dp"
+                    android:background="@color/colorTableColumn">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="2dp"
+                        android:text="Android\nApps"
+                        android:textStyle="normal"
+                        android:textColor="@color/colorText"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="2dp"
+                        android:text="No"
+                        android:textStyle="normal"
+                        android:textColor="@color/colorText"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="2dp"
+                        android:text="No"
+                        android:textStyle="normal"
+                        android:textColor="@color/colorText"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="2dp"
+                        android:text="No"
+                        android:textStyle="normal"
+                        android:textColor="@color/colorText"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="2dp"
+                        android:text="No"
+                        android:textStyle="normal"
+                        android:textColor="@color/colorText"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="2dp"
+                        android:text="Yes"
+                        android:textStyle="normal"
+                        android:textColor="@color/colorText"/>
+                </TableRow>
+                <TableRow
+                    android:layout_width="0dp">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="2dp"
+                        android:text="Free\nService"
+                        android:textStyle="normal" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="2dp"
+                        android:text="15 Days"
+                        android:textStyle="normal"
+                        android:textColor="@color/colorText"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="2dp"
+                        android:text="30 Days"
+                        android:textStyle="normal"
+                        android:textColor="@color/colorText"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="2dp"
+                        android:text="45 Days"
+                        android:textStyle="normal"
+                        android:textColor="@color/colorText"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="2dp"
+                        android:padding="2dp"
+                        android:text="60 Days"
+                        android:textStyle="normal"
+                        android:textColor="@color/colorText"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="2dp"
+                        android:text="90 Days"
+                        android:textStyle="normal"
+                        android:textColor="@color/colorText"/>
+                </TableRow>
+            </TableLayout>
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            card_view:cardCornerRadius="10dp"
+            app:cardBackgroundColor="@color/cardViewBackgroundColor"
+            app:cardElevation="4dp"
+            app:cardMaxElevation="6dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="2dp"
+                android:padding="2dp"
+                android:orientation="vertical"
+                android:background="@drawable/cardviewbg"
+                >
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:padding="2dp"
+                    android:gravity="left"
+                    android:text="Features Available of our eCommerce"
+                    android:textStyle="normal"
+                    android:textSize="18dp"
+                    android:textColor="@color/colorTextHeader"/>
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:background="@color/colorView"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="left"
+                    android:layout_margin="5dp"
+                    android:padding="5dp"
+                    android:text="Maximum Categories\nMaximum Products\nMaximum Companies\nMulti Currency
+Multi Language\n
+Product Reviews Available\n
+Product Ratings from User\n
+Automatic Image Resize\n
+Payment Gateways\n
+Shipping Methods\n
+Control Information to Share Across Online Stores From a Single Admin Area\n
+Assign Authority to Users as Role\n
+API available for easy integration to Website and any third-party application such as Android IOS\n
+Custom Inter-Active Web Design and Styling\n
+Manage Customer Groups\n
+Ability to edit and manage Informative Pages\n
+Google Website Optimizer Integrationand Multivariate Testing\n
+CHECKOUT, PAYMENT, and SHIPPING\n
+One-Page SEO and Online Checkout\n
+Easy for Real-Time Shipping Rates\n
+Customer Group Pricing\n
+Recently Viewed Products\n
+New Items Promotional Tool\n
+On Page and In Shopping Cart Upsells and Cross Sells\n
+Send to a Friend and Wishlist Management\n
+View, edit, create and fulfill orders from admin panel\n
+Create one or multiple invoices, shipments and credit memos per order to allow for split fulfillment\n
+Print invoices and packing slips\n
+Call Center (phone) order creation − Includes ability to create new customer, or select existing customer and view – shopping cart, wishlist, last ordered items, and compared products list, as well as select addresses, give discounts and assign custom prices
+\nCreate re-orders for customers from administration panel
+\nEmail Notifications of Orders
+\nRSS feed of New Orders
+\nContact Us form
+Feature-rich Customer Accounts
+\nOrder History with Status Updates
+\nOrder Tracking from Account
+
+\nStock Availability
+\nMulti-Tier Pricing Upsell
+\nProduct Option Selection
+\nGrouped Products View
+\nAdd to Wishlist
+\nSend to a Friend with Email
+\nLayered / Faceted Navigation for filtering of products in categories
+
+"
+                    android:textStyle="normal"
+                    android:textColor="@color/colorText"/>
+            </LinearLayout>
+
+
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            card_view:cardCornerRadius="10dp"
+            app:cardBackgroundColor="@color/cardViewBackgroundColor"
+            app:cardElevation="4dp"
+            app:cardMaxElevation="6dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="2dp"
+                android:padding="2dp"
+                android:orientation="vertical"
+                android:background="@drawable/cardviewbg">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="left"
+                    android:layout_margin="5dp"
+                    android:padding="5dp"
+                    android:text="Card Transactions to Authorize and Charge and auto Creation of Invoices
+Integrated with Amazon Payments, PayPal, Authorize.net, and Google Checkout\n
+Can Accept Cheques, Money Order, and any o\n
+SSL Security Support for All Online Order and Sensitive Transactions\n
+Online Tax and Shipping Calculation and Prior to Checkout Estimates\n
+Option to Create Account as Part of Online Checkout Process\n
+Gift Message Management\n
+Configurable Saved Cart Expiration\n
+Multiple Shipping Address Management\n
+Online Order Tracking from Customer Account\n
+Ability to Manage Multiple Shipments on a Single Online Order\n
+Destination Country Management\n
+Per Order and Per Item Flat Rate Shipping Option\n
+Free Shipping Functionality\n
+Manage Shipping by Weight and Destination\n
+Light Footprint Design for Fast Load Time and Search Engine Optimization\n
+Google Site Map Creation and Site Map Auto Generation\n
+Search Engine Friendly URL’s Including URL ReWrite Controls\n
+META Information Management at Product and Category Levels\n
+Auto-Generated Popular Search Terms Page\n
+Integration with Google Analytics\n
+Admin Report Dashboard with Business Overview\n
+Sales Reports Including Total Sales and Returns\n
+Abandoned Shopping Cart Reports\n
+Best Viewed Products Reports\n
+Top Sold Products Report\n
+Low Stock Item Report\n
+Onsite Search Terms Report\n
+Product Reviews\n
+
+Report with RSS Support\n
+Tags Report with RSS Support\n
+Coupon Usage Report\n
+Online Poll Creation and Management\n
+Newsletter Management\n
+Landing Page Creation Tools\n
+Catalog Promotional Pricing and Controls\n
+Flexible Coupons Rule and Pricing Restrictions\n
+Free Shipping Promotion Management\n
+Multi-Tier Pricing for Volume Discounts\n
+Bundled Products OptionsProduct Reviews\n
+Related Products\n
+
+Configurable search with auto-suggested terms\n
+Recently viewed products\n
+Product comparisons\n
+Recently compared products\n
+Cross-sells, Up-sells and Related Items\n
+Popular Search Terms Cloud\n
+
+"
+                    android:textStyle="normal"
+                    android:textColor="@color/colorText"/>
+            </LinearLayout>
+
+
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            card_view:cardCornerRadius="10dp"
+            app:cardBackgroundColor="@color/cardViewBackgroundColor"
+            app:cardElevation="4dp"
+            app:cardMaxElevation="6dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="@drawable/cardviewbg"
+                >
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="left"
+                    android:layout_margin="5dp"
+                    android:padding="5dp"
+                    android:text="Password Reset email from front-end and admin panel
+\nOrder and Account Update Emails
+\nCustomizable Order Emails
+\nCreate and Edit Orders from the Admin Panel
+\nOrder status and history
+\nRe-orders from account
+\nRecently ordered items
+\nAddress Book with unlimited addresses
+\nDefault Billing and Shipping addresses
+\nWishlist with ability to add comments
+\nEmail or Send RSS feed of Wishlist
+\nNewsletter Subscription management
+\nProduct Reviews submitted
+\nProduct Tags submitted
+\nInventory Management with Backordered items, Minimum and Maximum quantities
+\nBatch Import and Export of catalog
+\nBatch Updates to products in admin panel
+\nGoogle Base Integration
+\nSimple, Configurable (e.g. size, color, etc.), Bundled and Grouped Products
+\nVirtual Products
+\nDownloadable/Digital Products
+\nCustomer Personalized Products – upload text for embroidery, monogramming, etc.
+\nTax Rates per location, customer group and product type
+\nAttribute Sets for quick product creation of different item types
+\nCreate Store-specific attributes on the fly
+\nMedia Manager with automatic image resizing and watermarking
+\nAdvanced Pricing Rules and support for Special Prices (see marketing tools)
+\nSearch Results rewrites and redirects
+\nApprove, Edit and Delete Product Tags
+\nApprove, Edit and Delete Product Reviews
+\nRSS feed for Low Inventory Alerts Customer Personalized Products – Upload text for embroidery, monogramming, etc. (this one is already there, but want to have the following shown after it)
+\nCustomer Personalized Products – Upload Image
+\nCustomer Personalized Products – Select Date/Time options for products
+\nCustomer Sorting – Define Attributes for Customer
+\nSorting on category (price, brand, etc.)
+\nMultiple Images Per Product
+\nProduct Image Zoom-in Capability
+
+\nFilter by Product Tags
+\nProduct Reviews
+\nProduct listing in grid or list format
+\nBreadcrumbs
+
+\nFlat Catalog Module for Improved Performance with large catalogs
+\nStatic Block tool to create category landing pages
+\nAbility to assign designs on category and product level (unique design per product/category)"
+                    android:textStyle="normal"
+                    android:textColor="@color/colorText"/>
+                <!--<include-->
+                    <!--layout="@layout/footerlayout"/>-->
+            </LinearLayout>
+
+
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            card_view:cardCornerRadius="10dp"
+            android:padding="10dp"
+            app:cardBackgroundColor="@color/cardViewBackgroundColor"
+            app:cardElevation="4dp"
+            app:cardMaxElevation="6dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="@color/colorTableColumn">
+
+                <!--<TextView-->
+                    <!--android:id="@+id/apply_for_training_txt_btn_id"-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:padding="10dp"-->
+                    <!--android:textStyle="italic"-->
+                    <!--android:textAlignment="center"-->
+                    <!--android:layout_gravity="center_horizontal"-->
+                    <!--android:textSize="17dp"-->
+                    <!--android:gravity="center"-->
+                    <!--android:background="@color/colorTableColumn"-->
+                    <!--android:textColor="@color/colorTextHeader"-->
+                    <!--android:text="Apply for Training"/>-->
+
+
+                <include
+                    layout="@layout/footerlayout"/>
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+    </LinearLayout>
+
+</ScrollView>

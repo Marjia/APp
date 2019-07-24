@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/tools"
+    app:ignore="NamespaceTypo">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <include
+            layout="@layout/text_header"/>
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            card_view:cardCornerRadius="10dp"
+            app:cardBackgroundColor="@color/cardViewBackgroundColor"
+            app:cardElevation="4dp"
+            app:cardMaxElevation="6dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="2dp"
+                android:padding="2dp"
+                android:orientation="vertical"
+                android:background="@drawable/cardviewbg">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:padding="2dp"
+                    android:gravity="left"
+                    android:text="Our eCommerce Features"
+                    android:textStyle="bold"
+                    android:textSize="20dp"
+                    android:textColor="@color/colorTextHeader"/>
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:background="@color/colorView"
+                    android:layout_margin="5dp"
+                    android:padding="2dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_margin="5dp"
+                    android:padding="2dp"
+                    android:text="1.eCommerce management
+\n2.Order management
+\n3.Sales tax management
+\n4.Electronic payments
+\n5.Shipping management
+\n6.Social media integration
+\n7.Sales orders
+\n8.Online forums
+\n9.Ticket management
+\n10.Quote management
+\n11.Debugging
+\n12.Content filtering
+\n13.Multi-currency
+\n14.Drip Email marketing
+\n15.Email templates
+\n16.Sales reporting
+\n17.Periodic reporting
+\n18.Discount management
+\n19.Third party integration
+\n20.Activity dashboard
+\n21.Sales analytics
+\n22.Multi-store management
+\n23.User access controls
+\n24.SEO management
+\n25.Product catalog
+\n26.Permission management
+\n27.Role-based permissions
+\n28.Multi-location support
+\n29.Price management
+\n30.User defined attributes
+\n31.Affiliate management
+\n32.Automatic backup
+\n33.Cataloging / categorization
+\n34.Category customization
+\n35.Product catalog integration
+\n36.Ratings and reviews
+\n37.Filtered views
+\n38.Multi-language
+\n39.Recurring billing
+\n40.Subscription services
+\n41.Multiple delivery formats
+\n42.Sales trend analysis
+\n43.Campaign management
+\n44.Multi-channel marketing
+\n45.API availability
+\n46.User management
+\n47.Multi-location"
+                    android:textSize="15dp"
+                    android:textColor="@color/colorText"
+                    />
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            card_view:cardCornerRadius="10dp"
+            app:cardBackgroundColor="@color/cardViewBackgroundColor"
+            app:cardElevation="4dp"
+            app:cardMaxElevation="6dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="@drawable/cardviewbg">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="2dp"
+                    android:padding="2dp"
+                    android:orientation="vertical"
+                    android:background="@drawable/cardviewbg">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:padding="2dp"
+                        android:gravity="left"
+                        android:text="Facilities Provided"
+                        android:textStyle="bold"
+                        android:textSize="20dp"
+                        android:textColor="@color/colorTextHeader"/>
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="2dp"
+                        android:background="@color/colorView"
+                        android:layout_margin="5dp"
+                        android:padding="2dp"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:padding="2dp"
+                        android:gravity="left"
+                        android:text="Documentation
+\nUnlimited Categories
+\nUnlimited Products
+\nUnlimited Manufacturers
+\nTemplatable
+\nMulti-Language
+\nMulti-Currency
+\nProduct Reviews
+\nProduct Ratings
+\nDownloadable Products
+\nAutomatic Image Resizing
+\nMultiple Tax Rates
+\nRelated Products
+\nUnlimited Information Pages
+\nShipping
+\nWeight Calculation
+\nDiscount
+\nCoupon System
+\nSearch Engine Optimization (SEO) Module
+\nSystem Backup and Restore Tools
+\nPrintable Invoices Sales Reports"
+                        android:textStyle="normal"
+                        android:textSize="15dp"
+                        android:textColor="@color/colorText"/>
+                </LinearLayout>
+
+                <!--<TextView-->
+                    <!--android:id="@+id/submit_quate_txt_id"-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:text="Request for Demo "-->
+                    <!--android:textSize="17dp"-->
+                    <!--android:layout_margin="3dp"-->
+                    <!--android:padding="1dp"-->
+                    <!--android:textStyle="italic"-->
+                    <!--android:textColor="@color/colorPrimaryDark"-->
+                    <!--/>-->
+                <!--<include-->
+                    <!--layout="@layout/footerlayout"/>-->
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            card_view:cardCornerRadius="10dp"
+            app:cardBackgroundColor="@color/cardViewBackgroundColor"
+            app:cardElevation="4dp"
+            app:cardMaxElevation="6dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="@color/colorTableColumn">
+
+                <TextView
+                    android:id="@+id/submit_quate_txt_id"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:textStyle="italic"
+                    android:textAlignment="center"
+                    android:layout_gravity="center_horizontal"
+                    android:textSize="17dp"
+                    android:gravity="center"
+                    android:background="@color/colorTableColumn"
+                    android:textColor="@color/colorTextHeader"
+                    android:text="Request for Demo"/>
+
+
+                <include
+                    layout="@layout/footerlayout"/>
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+
+    </LinearLayout>
+
+</ScrollView>

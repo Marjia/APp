@@ -1,0 +1,37 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+    </style>
+
+
+    <style name="MyDatePickerDialogStyle" parent="ThemeOverlay.AppCompat.Dialog.Alert">
+
+
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">#030c43</item>
+
+
+        <item name="showTitle">false</item>
+        <!--<item name="colorAccent">#ff6d00</item>-->
+        <!--<item name="colorControlActivated">#e4d648/item>-->
+        <item name="colorControlActivated">#e4d648</item>
+        <item name="selectableItemBackgroundBorderless">@color/colorItmBg</item>
+        <item name="colorControlHighlight">#c51162</item>
+        <!--<item name="android:headerBackground">#f5f5fa</item>-->
+
+
+    </style>
+    <!---->
+    <!--<style name="AppTheme.NoActionBar">-->
+        <!--<item name="windowActionBar">false</item>-->
+        <!--<item name="windowNoTitle">true</item>-->
+    <!--</style>-->
+
+</resources>
